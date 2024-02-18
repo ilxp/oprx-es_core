@@ -26,10 +26,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 24343096
+Installed-Size: 24328933
 Filename: base-files_1-24.2.18_x86_64.ipk
-Size: 24342168
-SHA256sum: 4db5e952158d75860d902c6741d9894e780990e997a7e7f996395945487e54dd
+Size: 24328044
+SHA256sum: 087bf5e3735fe891bf24a9f9ceebb7a8e65a9f3fcd3762f87ddd8e979c2f24cd
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -755,18 +755,6 @@ Size: 933
 SHA256sum: f33a861ccc6e003dfcdf955af2a88695cf65d153f3458979ce3be2f5f843b8ef
 Description:  Counter Mode CryptoAPI module
 
-Package: kmod-crypto-cts
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-crypto-manager
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 3022
-Filename: kmod-crypto-cts_6.6.17-1_x86_64.ipk
-Size: 3755
-SHA256sum: 147e931593cc905f76ac0c711a9e65adfa31fda6e62edcd9499ac5b0b2cdac8d
-Description:  Cipher Text Stealing CryptoAPI module
-
 Package: kmod-crypto-deflate
 Version: 6.6.17-1
 Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-lib-zlib-inflate, kmod-lib-zlib-deflate, kmod-crypto-acompress
@@ -1056,18 +1044,6 @@ Size: 910
 SHA256sum: 187b22fa34f16bc0aa8eb024b61339921d85fe886e50a674e1fab2af3cb0aa67
 Description:  DMA shared buffer support
 
-Package: kmod-dnsresolver
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2)
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 4626
-Filename: kmod-dnsresolver_6.6.17-1_x86_64.ipk
-Size: 5362
-SHA256sum: 0d3a30cb6ac05554dea3be3483418b5d04c3b1f8c806f66e1a8715af74f6fc1d
-Description:  In-kernel DNS Resolver
-
 Package: kmod-drm-amdgpu
 Version: 6.6.17-1
 Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-backlight, kmod-drm-ttm, kmod-drm-ttm-helper, kmod-drm-kms-helper, kmod-i2c-algo-bit, amdgpu-firmware, kmod-drm-display-helper, kmod-drm-buddy, kmod-acpi-video
@@ -1353,18 +1329,6 @@ Size: 37121
 SHA256sum: af5bc29d39e028bd984a5508ccc2848d847d52476e9c44c39f5a304ef2c3e406
 Description:  Kernel module for exFAT filesystem support
 
-Package: kmod-fs-exportfs
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2)
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 229
-Filename: kmod-fs-exportfs_6.6.17-1_x86_64.ipk
-Size: 963
-SHA256sum: faa586e5dabcaba69a628ae2178c24d912ccc512095228c9e32cf9d7eb90b0a0
-Description:  Kernel module for exportfs. Needed for some other modules.
-
 Package: kmod-fs-ext4
 Version: 6.6.17-1
 Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-lib-crc16, kmod-crypto-hash, kmod-crypto-crc32c
@@ -1389,78 +1353,6 @@ Size: 975
 SHA256sum: 142c7b7db9887ace078504add5401b7faafb75793416787470a1031a542a40da
 Description:  Kernel module for F2FS filesystem support
 
-Package: kmod-fs-nfs-common-rpcsec
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-nfs-common, kmod-crypto-des, kmod-crypto-cbc, kmod-crypto-cts, kmod-crypto-md5, kmod-crypto-sha1, kmod-crypto-hmac, kmod-crypto-ecb, kmod-crypto-arc4, kmod-oid-registry
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 36437
-Filename: kmod-fs-nfs-common-rpcsec_6.6.17-1_x86_64.ipk
-Size: 37275
-SHA256sum: 155b8490af7dfeb05b60cf1943c7ef5caf2c9373e52336bcfdf551ac88edbc05
-Description:  Kernel modules for NFS Secure RPC
-
-Package: kmod-fs-nfs-common
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-oid-registry
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 154236
-Filename: kmod-fs-nfs-common_6.6.17-1_x86_64.ipk
-Size: 153934
-SHA256sum: 063603eebccd38e271965fc756db3c014d6e14298ddef1db84779c3170674488
-Description:  Common NFS filesystem modules
-
-Package: kmod-fs-nfs-v3
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-nfs
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 11607
-Filename: kmod-fs-nfs-v3_6.6.17-1_x86_64.ipk
-Size: 12377
-SHA256sum: c282ab322de8b4186afc2b9fdd4718f5495b71fa742b052cea3754ad81be268d
-Description:  Kernel module for NFS v3 client support
-
-Package: kmod-fs-nfs-v4
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-nfs
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 148995
-Filename: kmod-fs-nfs-v4_6.6.17-1_x86_64.ipk
-Size: 149108
-SHA256sum: 92e38ad45f906f4d7cad3c81592f21d7ff216b49a63ab2338bfb3c79b23f478a
-Description:  Kernel module for NFS v4 client support
-
-Package: kmod-fs-nfs
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-nfs-common, kmod-dnsresolver
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 87430
-Filename: kmod-fs-nfs_6.6.17-1_x86_64.ipk
-Size: 87609
-SHA256sum: 9d228dc03fe4d56b85c036b5955a8437d48f713b665cb79f5698efe5b142b918
-Description:  Kernel module for NFS client support
-
-Package: kmod-fs-nfsd
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-nfs-common, kmod-fs-exportfs, kmod-fs-nfs-common-rpcsec
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 142113
-Filename: kmod-fs-nfsd_6.6.17-1_x86_64.ipk
-Size: 142314
-SHA256sum: 36dc1585b9f262492fd5afce47a67ccdedc077157d915bafcd1d576c4928675e
-Description:  Kernel module for NFS kernel server support
-
 Package: kmod-fs-ntfs3
 Version: 6.6.17-1
 Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-nls-base
@@ -1476,18 +1368,6 @@ Description:  Kernel module for fully functional NTFS filesystem support. It all
  
  It supports NTFS versions up to 3.1.
 
-Package: kmod-fs-squashfs
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2)
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 229
-Filename: kmod-fs-squashfs_6.6.17-1_x86_64.ipk
-Size: 962
-SHA256sum: 0fa531297421b39d93f927f68133e2a9b181dd6b82293a53e8ceb0194c9aef75
-Description:  Kernel module for SquashFS 4.0 support
-
 Package: kmod-fs-vfat
 Version: 6.6.17-1
 Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8
@@ -1499,18 +1379,6 @@ Filename: kmod-fs-vfat_6.6.17-1_x86_64.ipk
 Size: 42208
 SHA256sum: 39780cacbe431d2f52c58b783b87ff4e0f3d2679ae566912ff121a76eef9c093
 Description:  Kernel module for VFAT filesystem support
-
-Package: kmod-fs-xfs
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2), kmod-fs-exportfs, kmod-lib-crc32c
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 347267
-Filename: kmod-fs-xfs_6.6.17-1_x86_64.ipk
-Size: 346672
-SHA256sum: 1bb0d158c1579db2020a115dd309fb9f8694b449b68f4838dcad493d23317e26
-Description:  Kernel module for XFS support
 
 Package: kmod-fuse
 Version: 6.6.17-1
@@ -2762,18 +2630,6 @@ Size: 960
 SHA256sum: 507cc59fe74339a1d3fe57e3f75ef6691379a0243af889c97337f6edba9b401c
 Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
-
-Package: kmod-oid-registry
-Version: 6.6.17-1
-Depends: kernel (=6.6.17-1-a9b76716b80537ca9ae90b99a8bb02c2)
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 2599
-Filename: kmod-oid-registry_6.6.17-1_x86_64.ipk
-Size: 3318
-SHA256sum: 6f1c67d9e5451b7c9a9f992ec28c9f501ae0e35da4d270c6efcdee7a45cf3c21
-Description:  Object identifier registry
 
 Package: kmod-pcnet32
 Version: 6.6.17-1
