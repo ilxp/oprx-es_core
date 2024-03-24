@@ -38,10 +38,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711108210
 Architecture: x86_64
-Installed-Size: 24012483
+Installed-Size: 23805397
 Filename: base-files_1-24.3.24_x86_64.ipk
-Size: 24011462
-SHA256sum: 373eeddcbc97443bfdc5f537f5c5232b2f7d35aa5f41b162a20382726e4c2c08
+Size: 23804653
+SHA256sum: ab4ec75e3275f504bec98c56e885b0895903b8540471689aba98387c530f89ef
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -680,21 +680,6 @@ Filename: kmod-ath_6.6.22+6.1.24-3_x86_64.ipk
 Size: 13382
 SHA256sum: 3e9cf71e7f66fd681de702bb7c4d93ae2eed1f665a7e0ed701573db8324d676c
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
-
-Package: kmod-backlight-pwm
-Version: 6.6.22-1
-Depends: kernel (=6.6.22-1-62abe97034f7e61d02834e5e8ac63d00), kmod-backlight
-Source: package/kernel/linux
-SourceName: kmod-backlight-pwm
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1711108210
-Architecture: x86_64
-Installed-Size: 96
-Filename: kmod-backlight-pwm_6.6.22-1_x86_64.ipk
-Size: 835
-SHA256sum: fc123d584555cddcd97cbe9b19f3f356e0a664c6f198cd67cfb8692e35721eb5
-Description:  Kernel module for PWM based Backlight support.
 
 Package: kmod-backlight
 Version: 6.6.22-1
@@ -1369,10 +1354,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711108210
 Architecture: x86_64
-Installed-Size: 2747723
+Installed-Size: 2747686
 Filename: kmod-drm-amdgpu_6.6.22-1_x86_64.ipk
-Size: 2706235
-SHA256sum: a1e31ccaf9409a3b318ed4c437856671777c79d10cc8c56f77a327aafb7944c8
+Size: 2706064
+SHA256sum: 389633e687726aee043e12273d0e46c47360ad670af274ae539f56c34e26571b
 Description:  Direct Rendering Manager (DRM) support for AMDGPU Cards
 
 Package: kmod-drm-buddy
@@ -1438,21 +1423,6 @@ Filename: kmod-drm-kms-helper_6.6.22-1_x86_64.ipk
 Size: 959
 SHA256sum: 2ce347dcf9ca7065b6ec2b62195b72765526978fdf174167a656ddc8dd94518b
 Description:  CRTC helpers for KMS drivers.
-
-Package: kmod-drm-radeon
-Version: 6.6.22-1
-Depends: kernel (=6.6.22-1-62abe97034f7e61d02834e5e8ac63d00), kmod-backlight, kmod-drm-kms-helper, kmod-drm-ttm, kmod-drm-ttm-helper, kmod-i2c-algo-bit, radeon-firmware, kmod-drm-display-helper, kmod-acpi-video
-Source: package/kernel/linux
-SourceName: kmod-drm-radeon
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1711108210
-Architecture: x86_64
-Installed-Size: 565963
-Filename: kmod-drm-radeon_6.6.22-1_x86_64.ipk
-Size: 561985
-SHA256sum: 0193f969defd940d0441c7f16ec6f4a7cbec518bfa6a67562d905128a74f8235
-Description:  Direct Rendering Manager (DRM) support for Radeon Cards
 
 Package: kmod-drm-ttm-helper
 Version: 6.6.22-1
@@ -4630,21 +4600,6 @@ Size: 13982
 SHA256sum: 8ecf90a0136e800d94385401a1ea7f54a05f7f3a7e6d83108a950ce956873ce6
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
-
-Package: radeon-firmware
-Version: 20231211-1
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: radeon-firmware
-Section: firmware
-SourceDateEpoch: 1711108210
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: x86_64
-Installed-Size: 3523056
-Filename: radeon-firmware_20231211-1_x86_64.ipk
-Size: 3517784
-SHA256sum: c89e253a860ae10e7d9d2966ec0716dd7927fd56642a4c5c5dae2eafb79b48e1
-Description:  Radeon Video Driver firmware
 
 Package: umbim
 Version: 2022-08-13-146bc77c-24
