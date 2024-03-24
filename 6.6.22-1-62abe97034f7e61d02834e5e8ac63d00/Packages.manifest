@@ -30,7 +30,7 @@ SHA256sum: c7660fde3e6b0352d320146acd64232dd66df8cda1ba9f267a5ea870de614537
 Description:  QCN9074 ath11k firmware
 
 Package: base-files
-Version: 1-24.3.23
+Version: 1-24.3.24
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
@@ -38,10 +38,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711108210
 Architecture: x86_64
-Installed-Size: 24010107
-Filename: base-files_1-24.3.23_x86_64.ipk
-Size: 24009459
-SHA256sum: e4ef91da2a2c7948fb5dd1cac70027eda20f411344c8e3f0f2a6eaa685bc228f
+Installed-Size: 24012483
+Filename: base-files_1-24.3.24_x86_64.ipk
+Size: 24011462
+SHA256sum: 373eeddcbc97443bfdc5f537f5c5232b2f7d35aa5f41b162a20382726e4c2c08
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
