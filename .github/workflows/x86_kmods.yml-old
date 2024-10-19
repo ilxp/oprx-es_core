@@ -14,7 +14,9 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     name: sync
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        shell: bash
     steps:
     - name: Checkout
       uses: actions/checkout@main
@@ -37,7 +39,7 @@ jobs:
         git config --local user.email "action@github.com"
         git add --all
         git commit -m "${{ env.RELEASE_NAME }}"
-        git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.REPO_TOKEN }}@github.com/${{ github.repository }}"
+        git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.workflow_token }}@github.com/${{ github.repository }}"
         git fetch --unshallow origin
         git push -u origin main
 
