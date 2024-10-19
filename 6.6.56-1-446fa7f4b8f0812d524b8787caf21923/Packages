@@ -26,10 +26,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 44592033
+Installed-Size: 44360541
 Filename: base-files_1-24.10.19_x86_64.ipk
-Size: 44321035
-SHA256sum: 1534265f325470dcdf03384bbb8cdbdc5889d539fe7b65c2e9690ab3809d3426
+Size: 44089378
+SHA256sum: 21f4c4aeeef85575b79cbd707247367b9e1016a3cca78246f664c57ca8c18075
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -324,23 +324,6 @@ Description:  iptables extensions for matching/changing IP packet options.
  - HL
  
 
-Package: iptables-mod-iprange
-Version: 1.8.7-2
-Depends: libc, iptables, kmod-ipt-iprange
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter_core_team:iptables
-Architecture: x86_64
-Installed-Size: 3900
-Filename: iptables-mod-iprange_1.8.7-2_x86_64.ipk
-Size: 4660
-SHA256sum: 9452a246c97e6195505315f0b32ede307590cc374af864fc9b86d7b0b73cae26
-Description:  iptables extensions for matching ip ranges.
- 
- Matches:
- - iprange
- 
-
 Package: iptables-mod-nat-extra
 Version: 1.8.7-2
 Depends: libc, iptables, kmod-ipt-nat-extra
@@ -357,23 +340,6 @@ Description:  iptables extensions for extra NAT targets.
  Targets:
  - MIRROR
  - NETMAP
-
-Package: iptables-mod-socket
-Version: 1.8.7-2
-Depends: libc, iptables, kmod-ipt-socket
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter_core_team:iptables
-Architecture: x86_64
-Installed-Size: 2191
-Filename: iptables-mod-socket_1.8.7-2_x86_64.ipk
-Size: 2931
-SHA256sum: 5d05498573089c259322d184804297c78e5208811a70108708a53111b1fcb078
-Description:  Socket match iptables extensions.
- 
- Matches:
- - socket
- 
 
 Package: iptables-mod-tproxy
 Version: 1.8.7-2
@@ -1846,20 +1812,6 @@ Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  - ttl/TTL
  - unclean
 
-Package: kmod-ipt-iprange
-Version: 6.6.56-1
-Depends: kernel (=6.6.56-1-446fa7f4b8f0812d524b8787caf21923), kmod-ipt-core
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 1293
-Filename: kmod-ipt-iprange_6.6.56-1_x86_64.ipk
-Size: 2071
-SHA256sum: ff9f4806935f97b0c8f4e3f7545e73c7bd4c5612b02e77db88d7599c61649243
-Description:  Netfilter (IPv4) module for matching ip ranges
- Includes:
- - iprange
-
 Package: kmod-ipt-ipset
 Version: 6.6.56-1
 Depends: kernel (=6.6.56-1-446fa7f4b8f0812d524b8787caf21923), kmod-ipt-core, kmod-nfnetlink
@@ -1936,18 +1888,6 @@ Filename: kmod-ipt-raw_6.6.56-1_x86_64.ipk
 Size: 2421
 SHA256sum: bdf8db2758c3a901292fb4c186bc5b836621485b7de9350a958459f36ed5f2de
 Description:  Netfilter IPv4 raw table support
-
-Package: kmod-ipt-socket
-Version: 6.6.56-1
-Depends: kernel (=6.6.56-1-446fa7f4b8f0812d524b8787caf21923), kmod-nf-socket, kmod-nf-conntrack, kmod-ipt-core
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 2203
-Filename: kmod-ipt-socket_6.6.56-1_x86_64.ipk
-Size: 2940
-SHA256sum: f55d546197b20d152725d21a475d7f8bef13b3908da66f7ac75b666394502aa2
-Description:  Kernel modules for socket matching
 
 Package: kmod-ipt-tproxy
 Version: 6.6.56-1
@@ -2691,18 +2631,6 @@ Filename: kmod-nf-reject_6.6.56-1_x86_64.ipk
 Size: 4641
 SHA256sum: 2cfb0b81181a73b870039e2bb6d5996e6abf97a9231f52990407110ede44e038
 Description:  Netfilter IPv4 reject support
-
-Package: kmod-nf-socket
-Version: 6.6.56-1
-Depends: kernel (=6.6.56-1-446fa7f4b8f0812d524b8787caf21923)
-License: GPL-2.0
-Section: kernel
-Architecture: x86_64
-Installed-Size: 2604
-Filename: kmod-nf-socket_6.6.56-1_x86_64.ipk
-Size: 3339
-SHA256sum: 992e68beeb0aa9415279c3588db4fb619e56d22e890a72e5e58e475e83c906fe
-Description:  Netfilter socket lookup support
 
 Package: kmod-nf-tproxy
 Version: 6.6.56-1
@@ -3742,6 +3670,19 @@ Filename: libiwinfo-data_2024-03-08-8ffb8bfd-1_x86_64.ipk
 Size: 3802
 SHA256sum: 3c15a136a126afda78e718064345d936feb9308df56c63c398b0f04f63792111
 Description:  libiwinfo Lua binding
+
+Package: libiwinfo-lua
+Version: 2024-03-08-8ffb8bfd-1
+Depends: libc, libiwinfo20230701, liblua5.1.5
+License: GPL-2.0
+Section: lang
+Architecture: x86_64
+Installed-Size: 7127
+Filename: libiwinfo-lua_2024-03-08-8ffb8bfd-1_x86_64.ipk
+Size: 7901
+SHA256sum: 63f9cd4653d67d1b00bffaed9591f969493c0d5b8338214b4b38d2dba99483b7
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
 
 Package: libiwinfo20230701
 Version: 2024-03-08-8ffb8bfd-1
