@@ -3,10 +3,10 @@ Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: x86_64
-Installed-Size: 32739814
+Installed-Size: 32734280
 Filename: amdgpu-firmware_20241017-1_x86_64.ipk
-Size: 32466783
-SHA256sum: 3a80dcbb4175544ba7b5b7ad09e94da9c5d66a480875e447265b0b8fe9bb06ee
+Size: 32462960
+SHA256sum: bc273d86031a14c36e64f064eb05acaab8e0708a88517ddd60459474c699c2b0
 Description:  AMDGPU Video Driver firmware
 
 Package: ath11k-firmware-qcn9074
@@ -14,10 +14,10 @@ Version: 2023-03-31-a039049a-1
 Depends: libc
 Section: firmware
 Architecture: x86_64
-Installed-Size: 2350766
+Installed-Size: 2350761
 Filename: ath11k-firmware-qcn9074_2023-03-31-a039049a-1_x86_64.ipk
-Size: 2344046
-SHA256sum: 30c2d71eb570a995f87d8b312e551b3c015c24cce60db0a1be27e25232995be1
+Size: 2344045
+SHA256sum: 0bbef72893b69a2a97a886b22f799976a5d633986d7372822893d43319a5cd28
 Description:  QCN9074 ath11k firmware
 
 Package: base-files
@@ -26,10 +26,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 22895638
+Installed-Size: 22893606
 Filename: base-files_1-24.10.31_x86_64.ipk
-Size: 22625769
-SHA256sum: fe57f4668d57cd198f8bdef2672c1cb08d0ffd7d9ff978d70f3095d60c17e31e
+Size: 22624957
+SHA256sum: f521de9ec68270ca22b376af541a5f393812ce21961b718bcd308e092818a756
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -40,8 +40,8 @@ Section: base
 Architecture: x86_64
 Installed-Size: 24172
 Filename: block-mount_2024-01-22-08cd7083-1_x86_64.ipk
-Size: 24927
-SHA256sum: 2add6bc30f8d83be15ca6cd7f6bfe7d5c4c1b231b904f4ed48c6ee7e5e41a1c1
+Size: 24926
+SHA256sum: 969f137f9429c72747da96ae1f11503727448e5a7f103c4c50e2adc6f77366b7
 Description:  Block device mounting and checking
 
 Package: bnx2-firmware
@@ -49,10 +49,10 @@ Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: x86_64
-Installed-Size: 105164
+Installed-Size: 105162
 Filename: bnx2-firmware_20241017-1_x86_64.ipk
-Size: 105831
-SHA256sum: 8b307e7a06d339458f736bfa57fe80a83e5894b24f5880f8eecf3d4668118c10
+Size: 105808
+SHA256sum: 51ba6d521d9382d333d79b34a2e5cfde31838c3a766bb71831abffe6954d63f6
 Description:  Broadcom BCM5706/5708/5709/5716 firmware
 
 Package: bnx2x-firmware
@@ -60,10 +60,10 @@ Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: x86_64
-Installed-Size: 2421823
+Installed-Size: 2421969
 Filename: bnx2x-firmware_20241017-1_x86_64.ipk
-Size: 2415507
-SHA256sum: 072b1c2f530acb48993930e17c0358e37c9968fe4b9211b70998633542cfcb62
+Size: 2415519
+SHA256sum: 569d020c1880e2cd9b2898056766318fc00d7d293f02c9bdf6ad9ecd184cc604
 Description:  =QLogic 5771x/578xx firmware
 
 Package: comgt-ncm
@@ -72,10 +72,10 @@ Depends: libc, comgt, wwan, kmod-usb-serial-option, kmod-usb-net-huawei-cdc-ncm
 License: GPL-2.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 2650
+Installed-Size: 2649
 Filename: comgt-ncm_0.32-33_x86_64.ipk
 Size: 3422
-SHA256sum: 9f683be08f191037cc70fb841c62c02ba72e54427aff261051a591b1278bc442
+SHA256sum: 99992150111103bc8662f765e74cbb59ac92f8cd21505e0eae24a50ed933604d
 Description:  NCM 3G/4G Support
 
 Package: comgt
@@ -84,10 +84,10 @@ Depends: libc, chat
 License: GPL-2.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 24757
+Installed-Size: 24755
 Filename: comgt_0.32-33_x86_64.ipk
-Size: 25548
-SHA256sum: 00ba3c5922bfd5df2fc2c13c5b4acdda496f2eca7813648a6b3331e982522163
+Size: 25544
+SHA256sum: 8230fb41f41a8baff465334aebaec479abb78decf682b751c00dfcfa4ba416ec
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -100,10 +100,10 @@ License: MIT
 Section: net
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: x86_64
-Installed-Size: 136881
+Installed-Size: 136882
 Filename: dropbear_2022.82-1_x86_64.ipk
-Size: 137797
-SHA256sum: c27a3f4138dc6e7126638404d77663720f6e7b8a78c62cfa6e2839a4fd2ff88b
+Size: 137813
+SHA256sum: c2eab5c36b300d9f55456f7137607cd98123b4611d3f6ddc70799df705b1289e
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: fstools
@@ -114,8 +114,8 @@ Section: base
 Architecture: x86_64
 Installed-Size: 18592
 Filename: fstools_2024-01-22-08cd7083-1_x86_64.ipk
-Size: 19325
-SHA256sum: a08e76bdea52f63afc0dd25cd1bcf0501e8e24810db405f76281be06438c678a
+Size: 19322
+SHA256sum: 7fdbc005c8f8dc986e2832a2203efe595b1998e7e35fd9e7cfae7673025b2e08
 Description:  OpenWrt filesystem tools
 
 Package: fwtool
@@ -124,10 +124,10 @@ Depends: libc
 License: GPL-2.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 4388
+Installed-Size: 4389
 Filename: fwtool_2019-11-12-8f7fe925-1_x86_64.ipk
-Size: 5158
-SHA256sum: fbaf0e0221cd915440488cd6e83b72a95e167fd807b474095244949a9f4a53c2
+Size: 5152
+SHA256sum: bb5dbb7e972a8db5a69242c4dac87e3941e7d306c3e9886b28279c11eae7168d
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: grub2-bios-setup
@@ -137,10 +137,10 @@ License: GPL-3.0-or-later
 Section: utils
 CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
-Installed-Size: 435078
+Installed-Size: 435079
 Filename: grub2-bios-setup_2.12-6_x86_64.ipk
-Size: 433607
-SHA256sum: 3c63322291c48ecad195af8539dd496378a8bb746b189fbd9718a471fdfc50a5
+Size: 433597
+SHA256sum: f4c6badbf302d5c2eee9387b8989b33502a595b6baa2a596fa7de59b357faccc
 Description:  Set up images to bootable.
 
 Package: grub2-efi
@@ -153,7 +153,7 @@ Architecture: x86_64
 Installed-Size: 95
 Filename: grub2-efi_2.12-6_x86_64.ipk
 Size: 803
-SHA256sum: 5089ba21de85e0dfa2674a2d753bd2b93e2a5d64e3db0565eec47284252a9fc0
+SHA256sum: d39606ebffeb0484fa39776c8a14c5c586601047a031f064a0ed73dafbeca3ce
 Description:  GRand Unified Bootloader (efi)
 
 Package: grub2
@@ -165,8 +165,8 @@ CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
 Installed-Size: 95
 Filename: grub2_2.12-6_x86_64.ipk
-Size: 802
-SHA256sum: 6771b97ad5738281088dc04811b6aa77f0d74bab8147099086240363c5dd7cc8
+Size: 800
+SHA256sum: 61ea817c8e1bd3bb47d51a0378df4be9030b4a9cc27d563e56b79f5231a2c379
 Description:  GRand Unified Bootloader (pc)
 
 Package: i915-firmware
@@ -174,10 +174,10 @@ Version: 20241017-1
 Depends: libc
 Section: firmware
 Architecture: x86_64
-Installed-Size: 7804922
+Installed-Size: 7804572
 Filename: i915-firmware_20241017-1_x86_64.ipk
-Size: 7778496
-SHA256sum: 87452e6899bea68726149fa0cd3bfdc76e9bfdf56aa97d79a0503ed0ebee5572
+Size: 7777472
+SHA256sum: 89a479681e233f582a6a8a8f83ae85214bc8f05ae3d49db69c96f3a0bd4db1be
 Description:  Intel GPU firmware
 
 Package: intel-microcode
@@ -186,10 +186,10 @@ Depends: libc
 Section: firmware
 CPE-ID: cpe:/a:intel:microcode
 Architecture: x86_64
-Installed-Size: 13935073
+Installed-Size: 13935106
 Filename: intel-microcode_20240531-1_x86_64.ipk
-Size: 13937694
-SHA256sum: 5e8e21c30c9e89829b2bbc4d094e55f5475fd3ef68b00495d16daafe73848eb9
+Size: 13937712
+SHA256sum: 5448cf848db697e440aa3790f78b80db72e9e4e52011f390e52f6949811ee02f
 Description:  Intel x86 CPU microcode
 
 Package: ip6tables-extra
@@ -199,10 +199,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 12856
+Installed-Size: 12859
 Filename: ip6tables-extra_1.8.7-2_x86_64.ipk
-Size: 13480
-SHA256sum: 8fcc6cf4a244ce288b1773d2bf15bccd1ac9e8dcc1e7554370ca3e06fbc61cf2
+Size: 13488
+SHA256sum: 3ec0fb2be89d89e83e67f5ece7a362311a836e2097288ff9dc88a4b4b889ed54
 Description:  IPv6 header matching modules
 
 Package: ip6tables-mod-nat
@@ -212,10 +212,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 1892
+Installed-Size: 1891
 Filename: ip6tables-mod-nat_1.8.7-2_x86_64.ipk
-Size: 2651
-SHA256sum: 831d7ba29671f60a03713997a6280f4552813d60b10bc78c8835dfc6cc358281
+Size: 2635
+SHA256sum: f0199aff9293e07fffa73eb995c55ec28edfd1e32f483f9a2f532f1b77f70b56
 Description:  iptables extensions for IPv6-NAT targets.
 
 Package: ip6tables
@@ -228,7 +228,7 @@ Architecture: x86_64
 Installed-Size: 209
 Filename: ip6tables_1.8.7-2_x86_64.ipk
 Size: 941
-SHA256sum: 97a9a5f520213888977ca14f45de7322a5b5026fa1b47a2643649ebce718a1a2
+SHA256sum: 4639a0610d8b6547225bd655e66c9a9afed7613f762aa8a72434c4691d50537d
 Description:  IPv6 firewall administration tool
 
 Package: iptables-mod-conntrack-extra
@@ -238,10 +238,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 14245
+Installed-Size: 14243
 Filename: iptables-mod-conntrack-extra_1.8.7-2_x86_64.ipk
-Size: 14932
-SHA256sum: b2f9a9a271cfd35eae2208e95d99c0a33b4e678eaabc1e18668a883531fa8405
+Size: 14950
+SHA256sum: 9c75970da9ae4560146bb763a95fbb3401b06b371088a58f82fce2c5ebb63dc8
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -262,10 +262,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 11456
+Installed-Size: 11454
 Filename: iptables-mod-extra_1.8.7-2_x86_64.ipk
-Size: 12141
-SHA256sum: 51a12c2c911d3de2043cf11c1860b834520e92930027b8eed37fa38fa1d35e4a
+Size: 12155
+SHA256sum: 82070a47052f79d9eff528491be702f17ed32ecbb74d505f505b5b61e785e56b
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -285,8 +285,8 @@ CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
 Installed-Size: 5675
 Filename: iptables-mod-filter_1.8.7-2_x86_64.ipk
-Size: 6442
-SHA256sum: 3b4161473b79c496d6c25f6e54a896edc990ad14fac6e2fa8f8d062d49d0b33a
+Size: 6448
+SHA256sum: cff70f3d9437c70456160fc5305e4a702858df22b3580d6b8fd430270f9ce4fd
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -302,10 +302,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 17164
+Installed-Size: 17162
 Filename: iptables-mod-ipopt_1.8.7-2_x86_64.ipk
-Size: 17656
-SHA256sum: f90bd1b6db6526b2fc8d28ce0690babae033c6e92cda444011ffe64737c1ca06
+Size: 17658
+SHA256sum: 55980d720d00e2ecf3e4b2f4cc1cf0008f941330b83130687aa47120e05f3408
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -333,8 +333,8 @@ CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
 Installed-Size: 2407
 Filename: iptables-mod-nat-extra_1.8.7-2_x86_64.ipk
-Size: 3170
-SHA256sum: 0782f5750fd63975e92aab967726b046bf94c65448db69f8b211f339534c5420
+Size: 3168
+SHA256sum: 657f35f659165d74614b67f4719ddd95953ca13606315df1654126d3b183b8e5
 Description:  iptables extensions for extra NAT targets.
  
  Targets:
@@ -348,10 +348,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 2188
+Installed-Size: 2187
 Filename: iptables-mod-tproxy_1.8.7-2_x86_64.ipk
-Size: 2936
-SHA256sum: beab88cda85f6ea61414bfaf87bfb5477ee10ef0b467cfb35e8c9037ba253672
+Size: 2942
+SHA256sum: f8833022f04f41b7dfaca04a39b056cf078139f8368d9e30ff7b867f8e76bd67
 Description:  Transparent proxy iptables extensions.
  
  Targets:
@@ -365,10 +365,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 29492
+Installed-Size: 29493
 Filename: iptables_1.8.7-2_x86_64.ipk
-Size: 30437
-SHA256sum: 25c95246b34b277cfa1930303a67575a64560eaba67c21a0230314125cead104
+Size: 30444
+SHA256sum: ed65a00aada365e6265df941cece671c59d960e4ea1c04b3a49412990689a92f
 Description:  IP firewall administration tool.
  
  Matches:
@@ -413,10 +413,10 @@ Depends: libc, libiwinfo20230701
 License: GPL-2.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 7687
+Installed-Size: 7688
 Filename: iwinfo_2024-03-08-8ffb8bfd-1_x86_64.ipk
-Size: 8473
-SHA256sum: 9340cb76afcb0a69416a8b2f132460e89424fce6143e1dc0fcfb6619fb4e45af
+Size: 8470
+SHA256sum: 3536b6c6b6cd0a8b606e0e52986c9f3ebbf736cb694acb28fc3f5f39ddec466e
 Description:  Command line frontend for the wireless information library.
 
 Package: kmod-8139cp
@@ -425,10 +425,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mii
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 11289
+Installed-Size: 11288
 Filename: kmod-8139cp_6.6.58-1_x86_64.ipk
-Size: 12081
-SHA256sum: 4c2ea5c055c72203e75f3e541cb5ec59af4522ec1e91cadc85de1097d5013586
+Size: 12074
+SHA256sum: 1fb9ac01631c8c9f7ec8e1fb8f517c9b5f01d7442029b7fc2e997cdec38d1d51
 Description:  Kernel module for RealTek RTL-8139C+ PCI Fast Ethernet adapters
 
 Package: kmod-8139too
@@ -437,10 +437,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mii
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10731
+Installed-Size: 10734
 Filename: kmod-8139too_6.6.58-1_x86_64.ipk
-Size: 11510
-SHA256sum: df5b3a61187ac69570b3b5e7797adb21f79501b2183948f8593d40fcb786a1c6
+Size: 11522
+SHA256sum: 6eb3c5716851de20bf31d7f9bc439779049ad370a2305bd67263968665e2353a
 Description:  Kernel modules for RealTek RTL-8139 PCI Fast Ethernet adapters
 
 Package: kmod-acpi-video
@@ -449,10 +449,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-backlight
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 21660
+Installed-Size: 21658
 Filename: kmod-acpi-video_6.6.58-1_x86_64.ipk
-Size: 22382
-SHA256sum: c6f72e492bd6701ddffd2c55c58983b7fa76c37cdfc28b0d421be71325206ae6
+Size: 22369
+SHA256sum: f5993e4cea308d722e37286d2e9fd5ddee6786766075930768701b3d6df12c88
 Description:  Kernel support for integrated graphics devices.
 
 Package: kmod-amazon-ena
@@ -461,10 +461,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 41726
+Installed-Size: 41728
 Filename: kmod-amazon-ena_6.6.58-1_x86_64.ipk
-Size: 42533
-SHA256sum: 5f7ee25fc8d5ecca16715c37b03433a425e62a9ff16486374d896fc82b36bb5b
+Size: 42519
+SHA256sum: f7c896c01391c1b2985c13abaf92ddad9dcc6db9d8eaaf063cc024b3dea77cd5
 Description:  This driver supports Elastic Network Adapter (ENA)
  used by Amazon AWS T3 (2018) and later instances.
 
@@ -476,8 +476,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 58628
 Filename: kmod-amd-xgbe_6.6.58-1_x86_64.ipk
-Size: 59363
-SHA256sum: f11ac8ce0afc92745f14c26486dfc69444d28aa963d30ead132b92a7de2b30b4
+Size: 59354
+SHA256sum: 795c55cbd937c7c9945c0a40da3b7e8442aee5d0a1fe8f90bc8725df721ace4d
 Description:  Kernel modules for AMD 10GbE Ethernet device on an AMD SoC.
 
 Package: kmod-asn1-decoder
@@ -486,10 +486,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2707
+Installed-Size: 2705
 Filename: kmod-asn1-decoder_6.6.58-1_x86_64.ipk
-Size: 3454
-SHA256sum: 17f3c0494fb4bc27ccae2ae417e1b78f584961c6c3fdc942aca367155ed3ecb8
+Size: 3447
+SHA256sum: 9330719a191af089043d954a283143896df095dcb48d35c28a043ae9539e7073
 Description:  Simple ASN1 decoder
 
 Package: kmod-ata-ahci
@@ -498,10 +498,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ata-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 227
+Installed-Size: 229
 Filename: kmod-ata-ahci_6.6.58-1_x86_64.ipk
 Size: 962
-SHA256sum: f198444dd0b98396e0864b832fe6d7ea43cbef23e23e6f6d9b55e232e4f977e5
+SHA256sum: 632f7d95398621156bbfb3ae16c6d947225efb3d6e6c5e2fc3592835df9dd488
 Description:  Support for AHCI Serial ATA controllers
 
 Package: kmod-ata-core
@@ -512,8 +512,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-ata-core_6.6.58-1_x86_64.ipk
-Size: 820
-SHA256sum: 4591731024d279732b8930649ff361c44df4e82a020c70b63b29bf0fa10d0809
+Size: 823
+SHA256sum: ef8ce5644bdb378e1a8285a386fd2089e676d878af2c090c2bb8e68bbb19f89d
 Description:  Serial and Parallel ATA support
 
 Package: kmod-ath11k-pci
@@ -521,10 +521,10 @@ Version: 6.6.58+6.1.24-3
 Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-qrtr-mhi, kmod-ath11k
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7292
+Installed-Size: 7293
 Filename: kmod-ath11k-pci_6.6.58+6.1.24-3_x86_64.ipk
-Size: 8164
-SHA256sum: 567304bf2e9f606443c5bdb9a019c1da0f1757117db2f57e9ef9b324359cd97a
+Size: 8162
+SHA256sum: 778e9551732b3d1a5f97bd7e6267b9aede7c5862704329abca3e8696126f9a30
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets with PCI bus.
 
@@ -533,10 +533,10 @@ Version: 6.6.58+6.1.24-3
 Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ath, kmod-crypto-michael-mic
 Section: kernel
 Architecture: x86_64
-Installed-Size: 211099
+Installed-Size: 211096
 Filename: kmod-ath11k_6.6.58+6.1.24-3_x86_64.ipk
-Size: 210632
-SHA256sum: 2abdf86ccab0ba364ef10a0713a145e040d75ad5e08cc0031f49767afa5dbaba
+Size: 210644
+SHA256sum: 3d141a1d0f7ceb7ab534685ccc831637b24bfa6fd65cb75cd2ac049821e23aba
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
@@ -545,10 +545,10 @@ Version: 6.6.58+6.1.24-3
 Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12511
+Installed-Size: 12510
 Filename: kmod-ath_6.6.58+6.1.24-3_x86_64.ipk
-Size: 13222
-SHA256sum: 9d00fa22e333aa59e7ccb5fdbf31d54237ca1665f18710d6830b1fd2628a24a3
+Size: 13213
+SHA256sum: 692ac9af58ca4b4688b44ea5d4bb4ac24ef5d8c3bb4d65c7a8c9c3f8f17af8e1
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atlantic
@@ -559,8 +559,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 76523
 Filename: kmod-atlantic_6.6.58-1_x86_64.ipk
-Size: 76975
-SHA256sum: eb11178aefa54bb555b4e6ee6d6c4ff8c1629fb437563ada8d05d31c7576b2d7
+Size: 77000
+SHA256sum: 3eaef255b353f2a3efdbb0ab15877f9dea2a2178b28c72e901a34b76819c06a3
 Description:  Kernel modules for Aquantia AQtion 10Gbps Ethernet NIC
 
 Package: kmod-backlight
@@ -569,10 +569,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 186
+Installed-Size: 187
 Filename: kmod-backlight_6.6.58-1_x86_64.ipk
-Size: 908
-SHA256sum: d1432cb0c075b575b57201003f5cafde2127616b45f6d3f6a54f1dd8ce58436a
+Size: 912
+SHA256sum: d45a77c0b3b511a2e20083881b26147234097ee5b597c2681fe664fb7cd19276
 Description:  Kernel module for Backlight support.
 
 Package: kmod-block2mtd
@@ -583,8 +583,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-block2mtd_6.6.58-1_x86_64.ipk
-Size: 810
-SHA256sum: fe26ba0c1efce745c15d30d29e3f3b89f85246cc98c455d63265acb1b147b41e
+Size: 811
+SHA256sum: 3781ce3f898832b46d559b36f0665e98fdeb667831596e2c71c7ae6816b2f82a
 Description:  Block device MTD emulation
 
 Package: kmod-bnx2
@@ -595,8 +595,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 39764
 Filename: kmod-bnx2_6.6.58-1_x86_64.ipk
-Size: 40522
-SHA256sum: 6e451685e20b501e4237f742ec07de778b234ffa99517cadbc39d96398701302
+Size: 40516
+SHA256sum: 5c7ccaf44a3a71a62afdfff4f077d75bc09834d4d2030488bdf742c61fe71144
 Description:  Kernel module for the BCM5706/5708/5709/5716 ethernet adapter
 
 Package: kmod-bnx2x
@@ -605,10 +605,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), bnx2x-firmware, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 275396
+Installed-Size: 275397
 Filename: kmod-bnx2x_6.6.58-1_x86_64.ipk
-Size: 273895
-SHA256sum: 806d80aa02f1e566d36e27a4d15aa2452d24d6afbec6bcd47011a4d2ddd20647
+Size: 273890
+SHA256sum: 5b95d302214ebfc56a77289112d1acc03069ccc08966f6a88d0beee73cf0a9c9
 Description:  QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver
 
 Package: kmod-br-netfilter
@@ -617,10 +617,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10140
+Installed-Size: 10141
 Filename: kmod-br-netfilter_6.6.58-1_x86_64.ipk
-Size: 10894
-SHA256sum: d000cbd81b2341b2057f528b8c55c52ab758e13c636f7bdb5f0b1e0ded4444b0
+Size: 10890
+SHA256sum: 05cd1e3a2b0e6c002bfa654f4f0a8605f53a2362750ca9c265eddfe918aa1ef9
 Description:  Bridge netfilter support modules
 
 Package: kmod-button-hotplug
@@ -629,10 +629,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-input-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2943
+Installed-Size: 2942
 Filename: kmod-button-hotplug_6.6.58-3_x86_64.ipk
-Size: 3737
-SHA256sum: e74b417bc8e37095232f9c0d8eb0a859ece10de72a588c24b8f36ba46220e10b
+Size: 3736
+SHA256sum: 77fbaabf9f3deabcd81dbd702248681c59c2316fa036c9fd46513cddbdf87091
 Description:  Kernel module to generate button uevent-s from input subsystem events.
  If your device uses GPIO buttons, see gpio-button-hotplug.
 
@@ -641,10 +641,10 @@ Version: 6.6.58+6.1.24-3
 Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), iw, iwinfo, wireless-regdb
 Section: kernel
 Architecture: x86_64
-Installed-Size: 170889
+Installed-Size: 170886
 Filename: kmod-cfg80211_6.6.58+6.1.24-3_x86_64.ipk
-Size: 171244
-SHA256sum: 0c63ef720ba34f47659ae5a08c3d168eda56b60b50d3fa0cc05d7e5bbe328609
+Size: 171222
+SHA256sum: 5d3ba61598acc1170f2b529d416e5859859e5ec1f90c9f2820cc870a3cd76aff
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aead
@@ -655,8 +655,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 228
 Filename: kmod-crypto-aead_6.6.58-1_x86_64.ipk
-Size: 957
-SHA256sum: 90eb4f2ab6f9eb00b53b3d95f3071c878956cd707766550209b0e3e25849bb2c
+Size: 958
+SHA256sum: 5716d0999f57404154be41b56f93d35ccc9d42946a484372b92ee16f1c09a1dc
 Description:  CryptoAPI AEAD support
 
 Package: kmod-crypto-arc4
@@ -665,10 +665,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-user
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1372
+Installed-Size: 1373
 Filename: kmod-crypto-arc4_6.6.58-1_x86_64.ipk
-Size: 2109
-SHA256sum: bcb096335d9b89f55f8e1106774d669ccb8c2aad7e079e4106b6a89059cdb90e
+Size: 2110
+SHA256sum: 23a4995ca2eae9a3c96a04dbd59a06fec482b2619b3909886980e04046496e4f
 Description:  ARC4 cipher CryptoAPI module
 
 Package: kmod-crypto-authenc
@@ -677,10 +677,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-manage
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5249
+Installed-Size: 5250
 Filename: kmod-crypto-authenc_6.6.58-1_x86_64.ipk
-Size: 5992
-SHA256sum: a21b30b98f13f5ea151f07e3658168eef94b702cb73e3b57f11f054135664218
+Size: 5991
+SHA256sum: 9c43f2214844bda8b0081a84144b0ac2449a96e097c4b1974cd42503498e7e27
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-ccm
@@ -689,10 +689,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-ctr, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 184
+Installed-Size: 183
 Filename: kmod-crypto-ccm_6.6.58-1_x86_64.ipk
-Size: 931
-SHA256sum: 725d878c2ce697f4b2d5ff2dc2af8cffd3dad00ff5899ba238249fda72fc8f41
+Size: 930
+SHA256sum: e6953c2d79e150ee9c21c8e0cbc90c81cd7f2bca10ed9b3c363287314537fe7c
 Description:  Support for Counter with CBC MAC (CCM)
 
 Package: kmod-crypto-cmac
@@ -701,10 +701,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2326
+Installed-Size: 2325
 Filename: kmod-crypto-cmac_6.6.58-1_x86_64.ipk
-Size: 3073
-SHA256sum: 4198f4a38b495bcba17ed156baffaafb1a40b0fc54d22b744b99b261e6324412
+Size: 3074
+SHA256sum: fd89edb2b74ea1cfda42fd3bf36b1ad01cad05dd1797a9bb64b2d7783199ae97
 Description:  Support for Cipher-based Message Authentication Code (CMAC)
 
 Package: kmod-crypto-crc32
@@ -713,10 +713,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 235
+Installed-Size: 239
 Filename: kmod-crypto-crc32_6.6.58-1_x86_64.ipk
-Size: 953
-SHA256sum: 38662354a4eb8ef704fb0bc4b2578fc41a6d71abcd13620836141567d91a6c0f
+Size: 957
+SHA256sum: 734feda3420c6dac4874ac9e0f70d270b21f387a2ade2c19ae5ff9079474b76b
 Description:  CRC32 CRC module
 
 Package: kmod-crypto-crc32c
@@ -727,8 +727,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 236
 Filename: kmod-crypto-crc32c_6.6.58-1_x86_64.ipk
-Size: 960
-SHA256sum: 18686d87a970b9e1593f0390ea07674864777ab59380cbe0d2f81cd6d096bca0
+Size: 956
+SHA256sum: 86f4d37a256c2787774641bf2ec72ee0195c4419d7a5514cc1ef7362de0889d1
 Description:  CRC32c CRC module
 
 Package: kmod-crypto-ctr
@@ -737,10 +737,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-manage
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 182
+Installed-Size: 183
 Filename: kmod-crypto-ctr_6.6.58-1_x86_64.ipk
-Size: 926
-SHA256sum: caed5925730f82c4149cf7721505a16a5030f23eec90dab090bebd8f453b7f7c
+Size: 929
+SHA256sum: a734d932c4cc455f6e1b515eaf87c990fdc229fe44de34b4716acc09dfd3c90b
 Description:  Counter Mode CryptoAPI module
 
 Package: kmod-crypto-ecb
@@ -749,10 +749,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-manage
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 182
+Installed-Size: 183
 Filename: kmod-crypto-ecb_6.6.58-1_x86_64.ipk
-Size: 927
-SHA256sum: 141659322992d4ca1366797f66871376152262bae7d546c67db0fb906ae97989
+Size: 919
+SHA256sum: 475ecd80c4a7c2803e3db5251dddb87b445ad23d6b2ca5d55c0456a2f498a2bb
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-gcm
@@ -761,10 +761,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-ctr, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 183
+Installed-Size: 184
 Filename: kmod-crypto-gcm_6.6.58-1_x86_64.ipk
-Size: 928
-SHA256sum: 224b4399a531f798b7b32b5fcc4eab901e41fdccec14901b45ad8eb0a5c84e71
+Size: 927
+SHA256sum: 545c91ccf78868d47a32aaba0d1a3ebc79b999cb3aafe258f4686f53c0c7f093
 Description:  GCM/GMAC CryptoAPI module
 
 Package: kmod-crypto-geniv
@@ -773,10 +773,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-rng, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1872
+Installed-Size: 1874
 Filename: kmod-crypto-geniv_6.6.58-1_x86_64.ipk
-Size: 2607
-SHA256sum: 671b36135e7b636b425cf92445dfaa6bb306e77de7f124b6583f3ffd9b5ddf2b
+Size: 2610
+SHA256sum: 9009526b813636135e1160dd4666532a8984e680d689f63684c4c5a2a9ce6065
 Description:  CryptoAPI Shared IV generator
 
 Package: kmod-crypto-gf128
@@ -785,10 +785,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 188
+Installed-Size: 189
 Filename: kmod-crypto-gf128_6.6.58-1_x86_64.ipk
-Size: 933
-SHA256sum: f852d98f3b3bbba395b9f1c6cce369d96986aaf223196b2a70fc9eb5fbc20537
+Size: 929
+SHA256sum: e0cd6eedce758b206ff0d63e41a290101d5dfc605618b13884aa120a06d09fdf
 Description:  GF(2^128) multiplication functions CryptoAPI module
 
 Package: kmod-crypto-ghash
@@ -797,10 +797,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-gf128,
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 194
+Installed-Size: 196
 Filename: kmod-crypto-ghash_6.6.58-1_x86_64.ipk
-Size: 936
-SHA256sum: 74fe80db44d6e74f7342951669cb01f460d2d8a7421000c0138180bb97f6d2f3
+Size: 928
+SHA256sum: 0a7a6299ca7d3905d19e6c6f8fda37a2af457219f350e129c84e355b2af5c57b
 Description:  GHASH digest CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -809,10 +809,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 233
+Installed-Size: 234
 Filename: kmod-crypto-hash_6.6.58-1_x86_64.ipk
-Size: 956
-SHA256sum: a2d4d2baaec74e668abc3fcee30cedd5ebab079d2e49df6e5f4e1c5017dfe9db
+Size: 957
+SHA256sum: 5f9ae43cd78ccb5ea010dfb2ea017b30c49b28447e774c165bd682b3f94a0438
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -823,8 +823,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2673
 Filename: kmod-crypto-hmac_6.6.58-1_x86_64.ipk
-Size: 3420
-SHA256sum: c85e292ad07bbd87473ce667d6a77457fec62feffd37914ff2b9107f73a773a5
+Size: 3421
+SHA256sum: f36228295e548b10694a9f6cc782e2c1787f914c44b10e543b44fe6cef64c80c
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-kpp
@@ -835,8 +835,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-crypto-kpp_6.6.58-1_x86_64.ipk
-Size: 819
-SHA256sum: 309a9c1118d6c6c8f3f67383184f35fcdb5297ca30a7120e9fd73d42b578e3b6
+Size: 822
+SHA256sum: a4ad6ce9c1c2b1f332003569e35e7fb9be3d2994ecdf599adea41234f13cd530
 Description:  Key-agreement Protocol Primitives
 
 Package: kmod-crypto-lib-chacha20
@@ -845,10 +845,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8081
+Installed-Size: 8080
 Filename: kmod-crypto-lib-chacha20_6.6.58-1_x86_64.ipk
-Size: 8788
-SHA256sum: 7ff309a22c1abf8c45dbf1a637f019e22662759da1c932e05e56ee95a242837f
+Size: 8791
+SHA256sum: 5e0dc6c5387984a903a47fbcd6cd5c601beaf837b37013c3d5519db3ffce94d6
 Description:  ChaCha library interface
 
 Package: kmod-crypto-lib-chacha20poly1305
@@ -859,8 +859,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3489
 Filename: kmod-crypto-lib-chacha20poly1305_6.6.58-1_x86_64.ipk
-Size: 4254
-SHA256sum: 63bdc255e8b340431f29ea2aee5437823e1968bbd63065be45bb3e5cec03b909
+Size: 4256
+SHA256sum: 27f7613ff12620d065e8b74d32deb6e5f688db97f6232aae75bfec6843f92c14
 Description:  ChaCha20-Poly1305 AEAD support (8-byte nonce library version)
 
 Package: kmod-crypto-lib-curve25519
@@ -869,10 +869,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-kpp
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 26773
+Installed-Size: 26770
 Filename: kmod-crypto-lib-curve25519_6.6.58-1_x86_64.ipk
-Size: 27493
-SHA256sum: 0945e3be41f5893cd61731909c8046a4ba7f32725812649843ee9a3eb6165c0c
+Size: 27520
+SHA256sum: d36514c2af9a0215e75768278b1fe0c21dc3a5672c471d9082df13ed0d0a59dc
 Description:  Curve25519 scalar multiplication library
 
 Package: kmod-crypto-lib-poly1305
@@ -883,8 +883,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 9222
 Filename: kmod-crypto-lib-poly1305_6.6.58-1_x86_64.ipk
-Size: 9963
-SHA256sum: b1a39d248bd33ebd3c9ae9a9730b882783cbd9f36ac5004675bacd17773b7f83
+Size: 9964
+SHA256sum: c447e71914b2d7e652847833ed003d498e7753887906a99fd7716b2b868b28dc
 Description:  Poly1305 library interface
 
 Package: kmod-crypto-manager
@@ -893,10 +893,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-aead, 
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 234
+Installed-Size: 235
 Filename: kmod-crypto-manager_6.6.58-1_x86_64.ipk
-Size: 969
-SHA256sum: af378a671391a35088fae404c5a2b7ffe835136b7fcf79c2d00e62b10511c66b
+Size: 971
+SHA256sum: dac16e33e5ab8073861c13d1e49bd67aba0a18d49452a6eaf289dd938c061666
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-michael-mic
@@ -905,10 +905,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1583
+Installed-Size: 1584
 Filename: kmod-crypto-michael-mic_6.6.58-1_x86_64.ipk
-Size: 2328
-SHA256sum: a5301dffd3e17283f023b643c459cc0f67dedb795f8733b7591a99337abc720e
+Size: 2334
+SHA256sum: 05e63f308d77a076c3951a676234a8e67aea3ad3fe216befcc4f070334c4957e
 Description:  Michael MIC keyed digest CryptoAPI module
 
 Package: kmod-crypto-null
@@ -917,10 +917,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 188
+Installed-Size: 189
 Filename: kmod-crypto-null_6.6.58-1_x86_64.ipk
-Size: 917
-SHA256sum: 42400922f33836c166387021815054764141278be1439790401646851eb14e3d
+Size: 920
+SHA256sum: 632975b7732ac7337ad0fec587c1d8a7cc13c068b120622192131c944103f034
 Description:  Null CryptoAPI module
 
 Package: kmod-crypto-rng
@@ -929,10 +929,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash, 
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10794
+Installed-Size: 10792
 Filename: kmod-crypto-rng_6.6.58-1_x86_64.ipk
-Size: 11537
-SHA256sum: 1e3d9f3a1bb0dcf98f931c1b7396bee3dbfa9d952e5ed19bc9e83dfde7f4dde2
+Size: 11536
+SHA256sum: cbf8a3507a741d55a81643e124404364e992e4b2c02775b70912600ad35f18eb
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-seqiv
@@ -943,8 +943,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2028
 Filename: kmod-crypto-seqiv_6.6.58-1_x86_64.ipk
-Size: 2779
-SHA256sum: 4d989eb7755ceeaa0784bf3b632c15cb24ed57c9a72b039e4d739a9427a35986
+Size: 2770
+SHA256sum: 464346d2d20186cbad6cd502dc4da555f97cb311cbe29702d76cb1d0a002a45f
 Description:  CryptoAPI Sequence Number IV Generator
 
 Package: kmod-crypto-sha1
@@ -953,10 +953,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 9605
+Installed-Size: 9603
 Filename: kmod-crypto-sha1_6.6.58-1_x86_64.ipk
-Size: 10342
-SHA256sum: 7820ed977c2ab66c300d1f0cd2c78189a12294286b7c74f92fe3995acb85046f
+Size: 10350
+SHA256sum: 9a4530bfe64656e5d2a2d305d6992a1eaeed6685ae67abd54d3368e1dfc07cff
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-sha3
@@ -965,10 +965,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2820
+Installed-Size: 2821
 Filename: kmod-crypto-sha3_6.6.58-1_x86_64.ipk
 Size: 3557
-SHA256sum: 06b412f2bc2ebcb61c20e25630f8f0fcef95c7ae8d4ba3597b605ec82471ec9d
+SHA256sum: ad8ed3833538f17d0fc8f31c2f28d0c7c3c42d304cb93062483ce4e200e7b923
 Description:  SHA3 digest CryptoAPI module
 
 Package: kmod-crypto-sha512
@@ -977,10 +977,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12042
+Installed-Size: 12039
 Filename: kmod-crypto-sha512_6.6.58-1_x86_64.ipk
-Size: 12720
-SHA256sum: 2367340c316194f113db3a65009465279a158930ce31229136b9ebda6f129f46
+Size: 12691
+SHA256sum: 2bfedac72db53aefc8ab6def0b4c34af987bea95a49ee8f8e1b51c95b8f26574
 Description:  SHA512 digest CryptoAPI module
 
 Package: kmod-crypto-user
@@ -989,10 +989,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-hash, 
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 20399
+Installed-Size: 20401
 Filename: kmod-crypto-user_6.6.58-1_x86_64.ipk
-Size: 21122
-SHA256sum: 19e5e10abcac971d318aa390780c5ddbd5d188fb30c220ad474b272102f19c61
+Size: 21130
+SHA256sum: e3c951699d3f6fae9b341e590c53d0c7ee00059aa6d4838c32829a04dae8ef1a
 Description:  CryptoAPI userspace interface
 
 Package: kmod-cryptodev
@@ -1003,8 +1003,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 20511
 Filename: kmod-cryptodev_6.6.58+1.13-x86-2_x86_64.ipk
-Size: 21355
-SHA256sum: 3ba0a152d9d51b9379da9423c13f58cf9bb9bc5c6cee0e6c1d740ab9db083929
+Size: 21360
+SHA256sum: 21def727b8f732f415e88e3ccfa315c61876557bd30e3f8b00f27643701ae350
 Description:  This is a driver for that allows to use the Linux kernel supported
  hardware ciphers by user-space applications.
 
@@ -1014,10 +1014,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 188
+Installed-Size: 190
 Filename: kmod-dma-buf_6.6.58-1_x86_64.ipk
 Size: 905
-SHA256sum: f63e329e5cbc92adb11839edacef6a7fe9a829532f8a1c647aa5ac570d9b170f
+SHA256sum: f5bce31da5d111a98d83beaee45fd17a0c9e2ff0cf540e16fd66d6805fb26dac
 Description:  DMA shared buffer support
 
 Package: kmod-drm-amdgpu
@@ -1026,10 +1026,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-backlight, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2751868
+Installed-Size: 2751864
 Filename: kmod-drm-amdgpu_6.6.58-1_x86_64.ipk
-Size: 2710191
-SHA256sum: 29cca80f79a01435c0e31bab834240803cfeef25ad23848b4b1ff563ad3b096a
+Size: 2710064
+SHA256sum: 9e9067e5f9c68e82c3176fee9b9d4ae8ab61aedcf3db0ddbbe5eeabc3b3f901c
 Description:  Direct Rendering Manager (DRM) support for AMDGPU Cards
 
 Package: kmod-drm-buddy
@@ -1040,8 +1040,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4971
 Filename: kmod-drm-buddy_6.6.58-1_x86_64.ipk
-Size: 5713
-SHA256sum: 4f02650eafdb6bc5a266a94f3d30c7288b6655e5804043eebbe1bd578b329ce4
+Size: 5705
+SHA256sum: 5e15db93ed002520d4eae73bcb80f16530f29b925f58db35e344d2239424442c
 Description:  A page based buddy allocator
 
 Package: kmod-drm-display-helper
@@ -1052,8 +1052,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 55833
 Filename: kmod-drm-display-helper_6.6.58-1_x86_64.ipk
-Size: 56397
-SHA256sum: b91b01468c90ca3b9ce485a18d446eba73f1ee8f85b8963e3494d34ec816dc61
+Size: 56413
+SHA256sum: 16c0628e9552024f3cb0c719140e89fa8fcd81f9f608a02e32907efee6486672
 Description:  DRM helpers for display adapters drivers.
 
 Package: kmod-drm-exec
@@ -1062,10 +1062,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-drm
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2512
+Installed-Size: 2511
 Filename: kmod-drm-exec_6.6.58-1_x86_64.ipk
-Size: 3242
-SHA256sum: de184922ec7035842aa377fec4ea5eb4c63b3f004efb10ac3cafc2e62a9794cf
+Size: 3239
+SHA256sum: 96d022b0725982ef2fb6c1da4393c9573dc08105bb59851205add301c6b9feee
 Description:  Execution context for command submissions.
 
 Package: kmod-drm-i915
@@ -1074,10 +1074,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-drm-buddy, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1098640
+Installed-Size: 1098637
 Filename: kmod-drm-i915_6.6.58-1_x86_64.ipk
-Size: 1090905
-SHA256sum: b38cfe0970578a54537a75bc62fe0d1a3ba89154e5e36d7a3006104c6e07c11d
+Size: 1090874
+SHA256sum: cd3ca5fedaab230de8b6e21eb348d4656c89fd3a4d1bf379beb016f910d5df34
 Description:  Direct Rendering Manager (DRM) support for "Intel Graphics
  Media Accelerator" or "HD Graphics" integrated graphics,
  including 830M, 845G, 852GM, 855GM, 865G, 915G, 945G, 965G,
@@ -1090,10 +1090,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-drm, kmod-fb,
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 189
+Installed-Size: 188
 Filename: kmod-drm-kms-helper_6.6.58-1_x86_64.ipk
-Size: 960
-SHA256sum: b9517e80675aaa83b2f9ae1294c3724672693082d46a6ec50589be15767f20ea
+Size: 961
+SHA256sum: bc188163caba0f73022f6ff2dfaafcc6356df5ea49baacee99a4052c464d0d47
 Description:  CRTC helpers for KMS drivers.
 
 Package: kmod-drm-suballoc-helper
@@ -1102,10 +1102,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-drm
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3805
+Installed-Size: 3806
 Filename: kmod-drm-suballoc-helper_6.6.58-1_x86_64.ipk
-Size: 4544
-SHA256sum: d4b1a48d9daa5d126e247ec151e0abce80ab6ea9a88356fe203e9d1627012327
+Size: 4543
+SHA256sum: ceccbd48c00083ae80dcad9a401462ee72c588ad19b2dc126ca3415a9bacf124
 Description:  DRM suballocation helper.
 
 Package: kmod-drm-ttm-helper
@@ -1116,8 +1116,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 189
 Filename: kmod-drm-ttm-helper_6.6.58-1_x86_64.ipk
-Size: 926
-SHA256sum: fc0895ebf29b705cb73d601f03fddf985a031409827497b10cb49ef7b66b1115
+Size: 925
+SHA256sum: 17f4942d14a1b38323acd0803e40c8a280b8de1ac520a44f0c1cbb41b23cede5
 Description:  Helpers for ttm-based gem objects
 
 Package: kmod-drm-ttm
@@ -1126,10 +1126,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-drm
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 175
+Installed-Size: 176
 Filename: kmod-drm-ttm_6.6.58-1_x86_64.ipk
-Size: 962
-SHA256sum: c65d1486b6bbb51374d690f22fc1385f8d2a9f873585d3f4e21370543467b5ff
+Size: 961
+SHA256sum: e5932d1f230fb5ff744d09be1e7bfe94a161cd934b98cdc85d02d62e084a5c6b
 Description:  GPU memory management subsystem for devices with multiple GPU memory types.
  Will be enabled automatically if a device driver uses it.
 
@@ -1141,8 +1141,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 174
 Filename: kmod-drm_6.6.58-1_x86_64.ipk
-Size: 927
-SHA256sum: 79f1ac5aff5e49525cd3ff998afac9d429566dd2e74f30f9940996c2aef65f41
+Size: 926
+SHA256sum: fe10f5936d9b531ade52c813c48a92ab12b6a5daf30c9a9ae8d2360fddeb7292
 Description:  Direct Rendering Manager (DRM) core support
 
 Package: kmod-e1000
@@ -1151,10 +1151,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 49502
+Installed-Size: 49501
 Filename: kmod-e1000_6.6.58-1_x86_64.ipk
-Size: 50237
-SHA256sum: df95b745e2b446826d347ed593f0b38169ae4fc2b1ef52c99c018d09f3ea9457
+Size: 50242
+SHA256sum: 541554cbaa3fdea8b1ebd9b4a6d8fcc2abef4de04cbe8fea2603547a58d861e7
 Description:  Kernel modules for Intel(R) PRO/1000 PCI Ethernet adapters.
 
 Package: kmod-e1000e
@@ -1163,10 +1163,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ptp
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 88067
+Installed-Size: 88068
 Filename: kmod-e1000e_6.6.58-1_x86_64.ipk
-Size: 88458
-SHA256sum: 137514eff0db1c76602cd12cae85b94d546b4b25fd09c8028cf1cc50995e0414
+Size: 88442
+SHA256sum: 0162fe87677e4afc03ba54dc2abd16b86ecf157cb6f88e8656fe9dcd190099b2
 Description:  Kernel modules for Intel(R) PRO/1000 PCIe Ethernet adapters.
 
 Package: kmod-ebtables-ipv4
@@ -1175,10 +1175,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ebtables
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4347
+Installed-Size: 4349
 Filename: kmod-ebtables-ipv4_6.6.58-1_x86_64.ipk
-Size: 5118
-SHA256sum: 5e6ae4c1c66be2dab1a53d37eb28b7093854f34f52d5507b4fd86d8a289ad8f8
+Size: 5122
+SHA256sum: 6b0ef66476cf9abdb65ea30d84e02e1dcf739da38ac76e6ec2677f64c7d3577c
 Description:  This option adds the IPv4 support to ebtables, which allows basic
  IPv4 header field filtering, ARP filtering as well as SNAT, DNAT targets.
 
@@ -1188,10 +1188,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ebtables
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1783
+Installed-Size: 1784
 Filename: kmod-ebtables-ipv6_6.6.58-1_x86_64.ipk
-Size: 2561
-SHA256sum: b901427306884dbfdd5156518af2069c1025fc8aeeec53c66f435d8726903c9a
+Size: 2562
+SHA256sum: 8a627b875343b64fad907edb0822685e229e7787c43604a0ce49ccaac1a0b44e
 Description:  This option adds the IPv6 support to ebtables, which allows basic
  IPv6 header field filtering and target support.
 
@@ -1203,8 +1203,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 19793
 Filename: kmod-ebtables_6.6.58-1_x86_64.ipk
-Size: 20572
-SHA256sum: 3e4f4cfa4acdb8c122a8e85797b3092d517690d8329e90433d313bd85a3d908c
+Size: 20569
+SHA256sum: b1930f4c2aabe634c85b2cf3653c69db0877b44a5042e76521e83ae5dd40972f
 Description:  ebtables is a general, extensible frame/packet identification
  framework. It provides you to do Ethernet
  filtering/NAT/brouting on the Ethernet bridge.
@@ -1215,10 +1215,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-fb
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 188
+Installed-Size: 189
 Filename: kmod-fb-cfb-copyarea_6.6.58-1_x86_64.ipk
-Size: 920
-SHA256sum: 7c445ec2b6af958d1bb8119c9a2c6e72a6ed8f8002fbc1b3802d30ac5b0dbc9f
+Size: 921
+SHA256sum: f1d46b5191c3884f8b54d7cd4fa13b1420d5982d8d8c957ad788ef62ef44f57d
 Description:  Kernel support for software copy area
 
 Package: kmod-fb-cfb-fillrect
@@ -1229,8 +1229,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 189
 Filename: kmod-fb-cfb-fillrect_6.6.58-1_x86_64.ipk
-Size: 924
-SHA256sum: 2a70ff4907e0a6b075fe1e1d2643be35e3d8aa64eb9132178145e36a12c41c9b
+Size: 926
+SHA256sum: 98d65f6cfa3363fd4619aad4342465385fb2501fb9684be34a05530dc65a6cf0
 Description:  Kernel support for software rectangle filling
 
 Package: kmod-fb-cfb-imgblt
@@ -1239,10 +1239,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-fb
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 187
+Installed-Size: 188
 Filename: kmod-fb-cfb-imgblt_6.6.58-1_x86_64.ipk
-Size: 927
-SHA256sum: 9b5fc36ec6cbda41e4f55923df6c6b213a33524bdda4db2ac7ea18f101f6daaf
+Size: 929
+SHA256sum: 2cb93f1773c429418c740961259039f564ed24c1d8c2d72ac5c191a409a94c51
 Description:  Kernel support for software image blitting
 
 Package: kmod-fb-sys-fops
@@ -1251,10 +1251,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-fb
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 189
+Installed-Size: 190
 Filename: kmod-fb-sys-fops_6.6.58-1_x86_64.ipk
-Size: 924
-SHA256sum: 9610a69c5907aab761820576a5ac0393e3d047050e20bc465db01cf01a91b024
+Size: 926
+SHA256sum: d1b76c253ff8f4281d8c64c060d8403e1ef760bd78cd98d383fbdc7a17c25387
 Description:  Kernel support for framebuffer sys ops
 
 Package: kmod-fb-sys-ram
@@ -1263,10 +1263,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-fb
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 206
+Installed-Size: 207
 Filename: kmod-fb-sys-ram_6.6.58-1_x86_64.ipk
-Size: 946
-SHA256sum: b2c63e57e4be40358ca24612021fadb990860173a77c88501c879e28a99b4de7
+Size: 950
+SHA256sum: e22e8e4a83982de871371e6a8da453d472e6f6d9ed236bebbf8b881a758fcdec
 Description:  Kernel support for framebuffers in system RAM
 
 Package: kmod-fb
@@ -1275,10 +1275,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 183
+Installed-Size: 187
 Filename: kmod-fb_6.6.58-1_x86_64.ipk
-Size: 913
-SHA256sum: 44f1414ad178047fcbf0a851c2a16189e781ccd404ae076b9f3231a194a0a126
+Size: 919
+SHA256sum: bc9606ab66844f792eaa889f20b309ac8c081ed7f752c4fbb4c0f37186933e40
 Description:  Kernel support for framebuffers and framebuffer console.
 
 Package: kmod-forcedeth
@@ -1289,8 +1289,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 26882
 Filename: kmod-forcedeth_6.6.58-1_x86_64.ipk
-Size: 27663
-SHA256sum: 1f61689c1c92709704c72a71d5255c28a1ebef7c9ca35c0a9e0ae32ad1310fc5
+Size: 27665
+SHA256sum: 2a14fa034ac31f97e60432b42a78dbbc9c4e27af55e59e311dfdb0f8fba08f74
 Description:  Kernel driver for Nvidia Ethernet support
 
 Package: kmod-fs-exfat
@@ -1299,10 +1299,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 36397
+Installed-Size: 36398
 Filename: kmod-fs-exfat_6.6.58-1_x86_64.ipk
 Size: 37065
-SHA256sum: 478c473d8a04e8daf27be7d6008b430611e1db1128920392a922f656258ee4aa
+SHA256sum: ee6db4ee2b9b9b2ac7ae54909e3ec9622b619f17318e33310ae35cfb3752a57a
 Description:  Kernel module for exFAT filesystem support
 
 Package: kmod-fs-ext4
@@ -1313,8 +1313,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 234
 Filename: kmod-fs-ext4_6.6.58-1_x86_64.ipk
-Size: 991
-SHA256sum: e7eba15796eb26ab220fe6bf6866adb2acd784b8ef9901f04a2627bb1e187085
+Size: 990
+SHA256sum: 884b67665d5182837f23494de4068f9de5bdc91084c4ee1b32918e17d8ee9d7e
 Description:  Kernel module for EXT4 filesystem support
 
 Package: kmod-fs-f2fs
@@ -1326,7 +1326,7 @@ Architecture: x86_64
 Installed-Size: 221
 Filename: kmod-fs-f2fs_6.6.58-1_x86_64.ipk
 Size: 976
-SHA256sum: cff1d13a23f60e1e2f01f0a84ef44a16b86b31540bffc94d456e95c802e29e94
+SHA256sum: 962c18e6d30e6881c8df2ec6d2af7021350a91d0cea3828dd5fb466b645b41cb
 Description:  Kernel module for F2FS filesystem support
 
 Package: kmod-fs-ntfs3
@@ -1335,10 +1335,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 119210
+Installed-Size: 119212
 Filename: kmod-fs-ntfs3_6.6.58-1_x86_64.ipk
-Size: 119763
-SHA256sum: 3e7a64e3d675f5aadc9c4214229ce226e4eac2f0037560335004a3097940add7
+Size: 119785
+SHA256sum: 73d7ef61546441580aee3917ed71b5c4e4cf16582102e95b4b00e251a0598635
 Description:  Kernel module for fully functional NTFS filesystem support. It allows
  reading as well as writing.
  
@@ -1350,10 +1350,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 41332
+Installed-Size: 41330
 Filename: kmod-fs-vfat_6.6.58-1_x86_64.ipk
-Size: 42196
-SHA256sum: d4fffd3d200d484666a01ea5881550a037d5b366c7d3bc6e3467ec0647bf8667
+Size: 42199
+SHA256sum: 50a6df65c50a1b68a14b113c9efe3a353ca4be23761cdd3d7fcca546304d3fe9
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-fuse
@@ -1362,10 +1362,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 58694
+Installed-Size: 58693
 Filename: kmod-fuse_6.6.58-1_x86_64.ipk
-Size: 59412
-SHA256sum: edc28e0f3687d8269173065e494d8b95375063bd94d588a3b0b8d5a621dac6e3
+Size: 59398
+SHA256sum: f3f981a3c03e95d9a5a3317dc1e6b8f6e82db701548e316f8a9ff30bd37a9b5d
 Description:  Kernel module for userspace filesystem support
 
 Package: kmod-gre
@@ -1374,10 +1374,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-iptunnel
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12706
+Installed-Size: 12709
 Filename: kmod-gre_6.6.58-1_x86_64.ipk
-Size: 13453
-SHA256sum: bab7cc3cea280370b96093f72f5a349884dc3f6d4b29103387781e4f69c134e9
+Size: 13452
+SHA256sum: 1b23ae02f4167347b6f71cc44238dbfbc15fca0fb1d468d8de53d021e56fff2a
 Description:  Generic Routing Encapsulation support
 
 Package: kmod-hid-generic
@@ -1386,10 +1386,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-hid
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 182
+Installed-Size: 183
 Filename: kmod-hid-generic_6.6.58-1_x86_64.ipk
-Size: 912
-SHA256sum: b0dd06a4b8f6c84489b38cf25e143e0e11dcb26b63b30a9eb941466a5ddf2237
+Size: 909
+SHA256sum: 41ce06f24b8822f564aae006ddc5e43ddc9a279e7d0734ebe5295559b543f3a9
 Description:  Generic HID device support
 
 Package: kmod-hid
@@ -1398,10 +1398,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-input-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 175
+Installed-Size: 176
 Filename: kmod-hid_6.6.58-1_x86_64.ipk
-Size: 907
-SHA256sum: 2c0682e723b8f7ac32eca32df8b16464f393fee0105c1ff43605cc9f8797140e
+Size: 909
+SHA256sum: c0ec6ead23571edb8b5e9c3c0ce5da286ac064f56f5e76e5309a6867d385227f
 Description:  Kernel modules for HID devices
 
 Package: kmod-hwmon-core
@@ -1412,8 +1412,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-hwmon-core_6.6.58-1_x86_64.ipk
-Size: 818
-SHA256sum: 22974938267c3c2ba5b9b0bf0f5d706af0f4e6cbf8f6dce0eca41ad0cbb9311e
+Size: 824
+SHA256sum: 856718df5de392d194abfb41bf8207a92dde76753088c7e8494d1542a97d40e0
 Description:  Kernel modules for hardware monitoring
 
 Package: kmod-i2c-algo-bit
@@ -1422,10 +1422,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-i2c-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 184
+Installed-Size: 186
 Filename: kmod-i2c-algo-bit_6.6.58-1_x86_64.ipk
 Size: 928
-SHA256sum: 2f12b5e9492187d61e3b42a091d8c1c0e0bf15f5f43738685b1c75d90499f127
+SHA256sum: fb3e163b564ff98609abfff8596c57b88d153e99a21bcbe3a420e9b09b278614
 Description:  Kernel modules for I2C bit-banging interfaces
 
 Package: kmod-i2c-core
@@ -1434,10 +1434,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4625
+Installed-Size: 4624
 Filename: kmod-i2c-core_6.6.58-1_x86_64.ipk
-Size: 5369
-SHA256sum: 4d0e0992c99c7c07528a8b70441fa7f1e2079f496f437d187573b02d6db9a006
+Size: 5364
+SHA256sum: 842dfcae70426d23f9bda191909bbcc86fd7b5d4c42b9207f1b9bcfd75360ec9
 Description:  Kernel modules for I2C support
 
 Package: kmod-i40e
@@ -1448,8 +1448,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 171453
 Filename: kmod-i40e_6.6.58-1_x86_64.ipk
-Size: 171833
-SHA256sum: 99fe2a14fa452b6c71b7da2fd49390c3f5d072c74cae0f9fc530e151015968b6
+Size: 171838
+SHA256sum: 5ff19e6068898f2c69a9107f99b4ef616b14d24c98aad51b8aecb07aa8fb80e6
 Description:  Kernel modules for Intel(R) Ethernet Controller XL710 Family 40 Gigabit Ethernet adapters.
 
 Package: kmod-iavf
@@ -1458,10 +1458,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 58540
+Installed-Size: 58541
 Filename: kmod-iavf_6.6.58-1_x86_64.ipk
-Size: 59307
-SHA256sum: 4943403ae1c26e295065610f6f360a65579e2cc2d41addc1e010993f3b477e0e
+Size: 59279
+SHA256sum: 572686f6aea7dff8ea426d51f6dfaec2ad1486538f2de52bbdbee37d945722aa
 Description:  Kernel modules for Intel XL710,
  X710, X722, XXV710, and all devices advertising support for
  Intel Ethernet Adaptive Virtual Function devices.
@@ -1474,8 +1474,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3612
 Filename: kmod-ifb_6.6.58-1_x86_64.ipk
-Size: 4352
-SHA256sum: f863c84da0278a225ae6d0212e9f407345fdbfc7fb1f43e700dbffb6d59823d3
+Size: 4354
+SHA256sum: 9bd5f119bde7132c6eedff20703a7055efa2b8753e0b54050bdb40296a274939
 Description:  The Intermediate Functional Block
 
 Package: kmod-igb
@@ -1484,10 +1484,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-i2c-core, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 86485
+Installed-Size: 86486
 Filename: kmod-igb_6.6.58-1_x86_64.ipk
-Size: 86940
-SHA256sum: a9edbf00b92c7459738d9d173b0d39bc4d11b64d6a99cc9fb2ea455578b2ba81
+Size: 86938
+SHA256sum: 79bab40a87292c75671adfbd998c272ab6167df70e47b77c12623b6de84d4543
 Description:  Kernel modules for Intel(R) 82575/82576 PCI-Express Gigabit Ethernet adapters.
 
 Package: kmod-igbvf
@@ -1496,10 +1496,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-i2c-core, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 17922
+Installed-Size: 17925
 Filename: kmod-igbvf_6.6.58-1_x86_64.ipk
-Size: 18723
-SHA256sum: 8bb9127296c8366fe097c099d5a81571278f53ff42c33567f5a80c7de819cb0e
+Size: 18729
+SHA256sum: 3075f3a4fb1be61ec8b5e146ebb825b42129e87dc4a7cb942fcc97419f47913e
 Description:  Kernel modules for Intel(R) 82576 Virtual Function Ethernet adapters.
 
 Package: kmod-igc
@@ -1508,10 +1508,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ptp
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 54700
+Installed-Size: 54698
 Filename: kmod-igc_6.6.58-1_x86_64.ipk
-Size: 55388
-SHA256sum: 9c9a28abbc9c4e8c44dd75edb7e635acab09dd84a49914569351ea11ce7392be
+Size: 55381
+SHA256sum: 2be088696c8a00c6b6eeab601ce7b8a986ab3801b492db4bb9674c05945fda0f
 Description:  Kernel modules for Intel(R) Ethernet Controller I225 Series
 
 Package: kmod-inet-diag
@@ -1520,10 +1520,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12399
+Installed-Size: 12401
 Filename: kmod-inet-diag_6.6.58-1_x86_64.ipk
-Size: 13206
-SHA256sum: 0c3d51a370c088a578a4c240cbc27d534fec17be817938e9ef3361a37920aff1
+Size: 13210
+SHA256sum: 0ce8b38ceff2acf68103a6f02df47868686a77bdd402e2e0f15fb85816881e33
 Description:  Support for INET (TCP, DCCP, etc) socket monitoring interface used by
  native Linux tools such as ss.
 
@@ -1535,8 +1535,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-input-core_6.6.58-1_x86_64.ipk
-Size: 825
-SHA256sum: a5988d0fa73c4fd3e9121f931cc921a8758cc81c54b36237d80c0b9c6b533ddf
+Size: 826
+SHA256sum: e6c80789bc291c58915bc754d1187da1160f3eac3bee1998bf22e6cf18832b86
 Description:  Kernel modules for support of input device
 
 Package: kmod-input-evdev
@@ -1545,10 +1545,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-input-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7597
+Installed-Size: 7598
 Filename: kmod-input-evdev_6.6.58-1_x86_64.ipk
-Size: 8380
-SHA256sum: aeaca29c1b17f211d42a4725fef17d5bc8b9a4a14265bf56501bf856aa032118
+Size: 8382
+SHA256sum: 71dc2a84e69f2ff0ccf0f6372436e1d93d1e5017187e2e3dd24f0f8c2b8a6098
 Description:  Kernel modules for support of input device events
 
 Package: kmod-ip6tables-extra
@@ -1557,10 +1557,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ip6tables
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4851
+Installed-Size: 4852
 Filename: kmod-ip6tables-extra_6.6.58-1_x86_64.ipk
-Size: 5556
-SHA256sum: d08d143c0f0f735dd9e2cb06f836b7470164abf15e91c1dc2c2a75529d532bbc
+Size: 5550
+SHA256sum: 5d429d4234a779fdd61add6c5522f9cd62f812a4ac796e537d36aa1784976178
 Description:  Netfilter IPv6 extra header matching modules
 
 Package: kmod-ip6tables
@@ -1571,8 +1571,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3229
 Filename: kmod-ip6tables_6.6.58-1_x86_64.ipk
-Size: 3974
-SHA256sum: f72a4ed6db4fc914597ff6415bb57ef0520677fd68abb4ef7740b258712e81ce
+Size: 3972
+SHA256sum: c0f743e60964f23395a1f8ed8640f62cbfcca82da9baf04d0d1508a5ff539da7
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipt-conntrack-extra
@@ -1581,10 +1581,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 15327
+Installed-Size: 15328
 Filename: kmod-ipt-conntrack-extra_6.6.58-1_x86_64.ipk
-Size: 16105
-SHA256sum: 62ffe5833f4caa6e18465ee4c40bb32d1aac7d4994bc24428f55e0fe4099cf3c
+Size: 16097
+SHA256sum: df69d4a04a93ffdf86b451969df30897ec368cd18b8072e2c16404f04b5e30d1
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -1601,8 +1601,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4827
 Filename: kmod-ipt-conntrack_6.6.58-1_x86_64.ipk
-Size: 5623
-SHA256sum: 9ef420fd51d1f8f5c64e5970366491ab262748b94e0d7989bceba828bc439e5d
+Size: 5630
+SHA256sum: 2803189b7c180f4130a98d422c02b7e19ac38a61949650e37fab7b6463c50e15
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -1617,10 +1617,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-reject, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 11677
+Installed-Size: 11678
 Filename: kmod-ipt-core_6.6.58-1_x86_64.ipk
-Size: 12447
-SHA256sum: 45969cc4fd26ede99a63d099f409e5e592a81972bde2e13fb29d1fb5d974565d
+Size: 12458
+SHA256sum: 7ff8e55add1148919d37b4aa0c8be9088ed25822b11de61743058e434204761a
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -1637,10 +1637,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5524
+Installed-Size: 5526
 Filename: kmod-ipt-extra_6.6.58-1_x86_64.ipk
-Size: 6271
-SHA256sum: 632dc8996f33e33611398d2e39581b6a8764cc77835e5426265986cd1cc41ce3
+Size: 6272
+SHA256sum: fe88d9a64d851c493d17dcc369f969e0c60ae07ea1f6ca563be7fe6af2dc6b40
 Description:  Other Netfilter (IPv4) kernel modules
  Includes:
  - addrtype
@@ -1654,10 +1654,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2754
+Installed-Size: 2756
 Filename: kmod-ipt-filter_6.6.58-1_x86_64.ipk
 Size: 3549
-SHA256sum: 15d7d39a22dc5536e307af23eedd9536ca6ac221cccf783b96fe5723e1fb2648
+SHA256sum: 7fa8b3c63cc86995149131c655769f565c6e734200eebd4e52b08e06ae25af6d
 Description:  Netfilter (IPv4) kernel modules for packet content inspection
  Includes:
  - string
@@ -1669,10 +1669,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-ipt, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7048
+Installed-Size: 7049
 Filename: kmod-ipt-fullconenat_6.6.58+2022-02-13-108a36cb-10_x86_64.ipk
-Size: 7890
-SHA256sum: ed3fca24f4842e9b1bd39a35a5e00151a336be4b8411b06f9f54cd8b15e488e9
+Size: 7891
+SHA256sum: 5afd384a83f608efcd5605e8ba1655d231d6c70b108bb7f3d2596e16eff590ab
 Description:  FULLCONENAT netfilter module
 
 Package: kmod-ipt-ipopt
@@ -1681,10 +1681,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6767
+Installed-Size: 6769
 Filename: kmod-ipt-ipopt_6.6.58-1_x86_64.ipk
-Size: 7611
-SHA256sum: 85c1b113a28a05d8e3d882fc3f7176d81dc554e44cb5bf31c75160468d5f5d50
+Size: 7626
+SHA256sum: 7e799151bde10c0932fe98588b1dce47b87020ba94a23d96f4178c85402ffe13
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -1705,10 +1705,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 187091
+Installed-Size: 187071
 Filename: kmod-ipt-ipset_6.6.58-1_x86_64.ipk
-Size: 187633
-SHA256sum: 85e0bcfda0e4970893dab1d3b03683a815efe010f219f25f85bae2dec2175c07
+Size: 187598
+SHA256sum: 1c98923af8c64cc5f61d45070f1e77a4a82bc1e3328c61d71b30ed324cfbac7c
 Description:  IPset netfilter modules
 
 Package: kmod-ipt-nat-extra
@@ -1719,8 +1719,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1706
 Filename: kmod-ipt-nat-extra_6.6.58-1_x86_64.ipk
-Size: 2474
-SHA256sum: 64029213ee48218f43201e1561c235cccdbb68f313666d9e3a3277bb8933c508
+Size: 2472
+SHA256sum: 466692464bf72c9c612ad8b1da315fd109afc744aa7095716a9de6041724d6e4
 Description:  Netfilter (IPv4) kernel modules for extra NAT targets
  Includes:
  - NETMAP
@@ -1734,8 +1734,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3551
 Filename: kmod-ipt-nat6_6.6.58-1_x86_64.ipk
-Size: 4339
-SHA256sum: 855359fad606bc55a7564454db7a20ff43cc21764d3a2f29dc6cdd199c09a9a0
+Size: 4338
+SHA256sum: 57ce19f9f494da9d257c1e98f6bfb63737340c21241697ca4f384210c0e130c5
 Description:  Netfilter (IPv6) kernel modules for NAT targets
 
 Package: kmod-ipt-nat
@@ -1747,7 +1747,7 @@ Architecture: x86_64
 Installed-Size: 4285
 Filename: kmod-ipt-nat_6.6.58-1_x86_64.ipk
 Size: 5028
-SHA256sum: eae074ccb02a286d962dc0ab9849a21b7edfdecfa0bc3d7918deaae16cbc84ec
+SHA256sum: b016024137d564beffccc6df25da85fe8fbb9a984eb1eec4ab5071fead770ece
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
@@ -1758,10 +1758,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1693
+Installed-Size: 1692
 Filename: kmod-ipt-raw_6.6.58-1_x86_64.ipk
-Size: 2427
-SHA256sum: e4051e1c9cef9524af126db24fd43c2a5858cabd3333e5a443c53fc0fb7347ce
+Size: 2422
+SHA256sum: f24b376f6350d1d1ef830edf2cd94a29524f9ccd4d679541ef6079af49d3de24
 Description:  Netfilter IPv4 raw table support
 
 Package: kmod-ipt-tproxy
@@ -1770,10 +1770,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-tproxy, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2620
+Installed-Size: 2621
 Filename: kmod-ipt-tproxy_6.6.58-1_x86_64.ipk
-Size: 3371
-SHA256sum: babecc1af98c9f0d1ed219678955e8558b23fff8a94eb5ace87b8567254d4948
+Size: 3376
+SHA256sum: f8c41fc5967844c1ba85b015d19bde8c13f80c53c00b55983001090ad030dc9e
 Description:  Kernel modules for Transparent Proxying
 
 Package: kmod-iptunnel4
@@ -1784,8 +1784,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2061
 Filename: kmod-iptunnel4_6.6.58-1_x86_64.ipk
-Size: 2781
-SHA256sum: 87c50f85370a192137eb1f8417ba1f6569d16260af4562669090551f15aa8379
+Size: 2777
+SHA256sum: 502aa70cb188b357ec112808f992b160dc395645bd1a21589feec94ea084ae0e
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel
@@ -1794,10 +1794,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12018
+Installed-Size: 12020
 Filename: kmod-iptunnel_6.6.58-1_x86_64.ipk
-Size: 12778
-SHA256sum: 3d7b6bd232432b56d77bad97f9cbb3efdd8bab9b505fba64211caa667b8cbb5a
+Size: 12788
+SHA256sum: c4de798b9922c303648d930e63fdf66fa85a72cf8c96efde4beeb628c828b6e5
 Description:  Kernel module for generic IP tunnel support
 
 Package: kmod-irqbypass
@@ -1808,8 +1808,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2223
 Filename: kmod-irqbypass_6.6.58-1_x86_64.ipk
-Size: 2950
-SHA256sum: fdbd3d5eb42a8e1f4a314a59e53c19abf7e2224421c6c7f2c4707afc31f409ce
+Size: 2951
+SHA256sum: 98b9a189f22121c53e06f59ca36357c17a3abf8ecd4d410f4df31873feda9d40
 Description:  IRQ offload/bypass manager
 
 Package: kmod-ixgbe
@@ -1818,10 +1818,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mdio, kmod-pt
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 120311
+Installed-Size: 120313
 Filename: kmod-ixgbe_6.6.58-1_x86_64.ipk
-Size: 120480
-SHA256sum: cd4d285958fbf4be68e9a1985f02d5f329c9ce62e833e44e55ea9c0e72bf6d4d
+Size: 120495
+SHA256sum: c37c2a7168a428236e0de2904251812392e7063d67ac27d4bf8eac35b6c2c33d
 Description:  Kernel modules for Intel(R) 82598/82599 PCI-Express 10 Gigabit Ethernet adapters.
 
 Package: kmod-kvm-intel
@@ -1830,10 +1830,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-kvm-x86
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 146396
+Installed-Size: 146385
 Filename: kmod-kvm-intel_6.6.58-1_x86_64.ipk
-Size: 145018
-SHA256sum: d3b5a3d868225fa7b5133ace24b644f3d0d99458da38e219701b77245b38c812
+Size: 145028
+SHA256sum: 36a383b4211cc946297ce04ca9e800329c1761c6974e3e424c449148f0c7c0d0
 Description:  Provides support for KVM on Intel processors equipped with the VT
  extensions.
 
@@ -1845,8 +1845,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 251866
 Filename: kmod-kvm-x86_6.6.58-1_x86_64.ipk
-Size: 250628
-SHA256sum: d2dba8ec0f59ee0886a17c6b69c6c53f191734991638d11444ad92dd3b26a0e9
+Size: 250622
+SHA256sum: 33fb13bccb172c5da154f4a6bc3c804590405a7c11b1af29c4425edb3d0996e6
 Description:  Support hosting fully virtualized guest machines using hardware
  virtualization extensions.  You will need a fairly recent
  processor equipped with virtualization extensions. You will also
@@ -1861,10 +1861,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-udptunnel4, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 14627
+Installed-Size: 14626
 Filename: kmod-l2tp_6.6.58-1_x86_64.ipk
-Size: 15339
-SHA256sum: a99e3825ed3e7b2f72a6d6a50126f495bffb16cb2fb22794b8c765c0f1cf32ec
+Size: 15343
+SHA256sum: 823059c9b8de53d33c2f8b6e5e6810429a686d8dd546fefb748cdf44d8abf0f3
 Description:  Kernel modules for L2TP V3 Support
 
 Package: kmod-lib-crc-ccitt
@@ -1873,10 +1873,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2176
+Installed-Size: 2174
 Filename: kmod-lib-crc-ccitt_6.6.58-1_x86_64.ipk
-Size: 2905
-SHA256sum: d1ba6b2cff5211ae12acb99485b644a669cebb89c4a86b4a339c832d2b0200ac
+Size: 2903
+SHA256sum: ff277ad7852019cca9cf609b18ba2da57e52f48b1cd734f85bb977246681d9f0
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc16
@@ -1885,10 +1885,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 224
+Installed-Size: 225
 Filename: kmod-lib-crc16_6.6.58-1_x86_64.ipk
-Size: 948
-SHA256sum: 61fb26eef19d0042e684a7334081356c8fa07e50ece3c4540cc492684bf38191
+Size: 953
+SHA256sum: 8cc122d1cb67a3381d86bee47f303567f93e783a5aae6a824dafa42295d61532
 Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-crc32c
@@ -1897,10 +1897,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-crc32c
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1226
+Installed-Size: 1227
 Filename: kmod-lib-crc32c_6.6.58-1_x86_64.ipk
-Size: 1991
-SHA256sum: c08139d56322fc8ba5d8419dac40499f65cc79e003674fa6dee9e6fba8d40de0
+Size: 1993
+SHA256sum: fda177fdaa0479f95bae5922f3d621c834eb09d9e53990ce4f287ae987c562f5
 Description:  Kernel module for CRC32 support
 
 Package: kmod-lib-textsearch
@@ -1909,10 +1909,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4162
+Installed-Size: 4163
 Filename: kmod-lib-textsearch_6.6.58-1_x86_64.ipk
-Size: 4866
-SHA256sum: 0231d6c4c8e367db4cad76619dd319a9f6053a8bbb05da9fa1b7b7ac66d6fd32
+Size: 4867
+SHA256sum: f2be37f792aee8d20a8119aca453c59560da69fb55e341469a3fa1e81782622c
 Description:  Textsearch support
 
 Package: kmod-lib-zlib-inflate
@@ -1921,10 +1921,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 190
+Installed-Size: 191
 Filename: kmod-lib-zlib-inflate_6.6.58-1_x86_64.ipk
-Size: 900
-SHA256sum: 966594d9a9f5c692ba3de6cb45b24ab944e913b4d01b5c3ab71a79643d0b6290
+Size: 903
+SHA256sum: efa296dbb02230df700548645970db317ad569d1c571f80610139a498fde8e34
 Description:  Zlib support
 
 Package: kmod-libphy
@@ -1933,10 +1933,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 45154
+Installed-Size: 45156
 Filename: kmod-libphy_6.6.58-1_x86_64.ipk
-Size: 44458
-SHA256sum: afd34d40c55a0d995d944539e9ba8c25c03951fa5548fdd1215809cb295034ef
+Size: 44456
+SHA256sum: 5d3f5c487c6cebb4f77e71b5a3cb3ad2887e79ca46e2eee162bdc38b29584083
 Description:  PHY library
 
 Package: kmod-mac80211
@@ -1944,10 +1944,10 @@ Version: 6.6.58+6.1.24-3
 Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-cfg80211, kmod-crypto-cmac, kmod-crypto-ccm, kmod-crypto-gcm, hostapd-common
 Section: kernel
 Architecture: x86_64
-Installed-Size: 321637
+Installed-Size: 321635
 Filename: kmod-mac80211_6.6.58+6.1.24-3_x86_64.ipk
-Size: 320610
-SHA256sum: b11d44ee67f5e724342d00214eace9979ffe55ec5dec741b2ad9e78c60c5d702
+Size: 320609
+SHA256sum: 3986bdc2e6ddecd0bf63684daf2a9b75b823257d837bbd7b8a85fdda76326f17
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-macsec
@@ -1958,8 +1958,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 20970
 Filename: kmod-macsec_6.6.58-1_x86_64.ipk
-Size: 21720
-SHA256sum: 0ec486aac74da44feb973ce302d2d98585b3d1a9886206149aea7717d9fb5aa9
+Size: 21727
+SHA256sum: 81d9b981fde4324864bf034359298d3fa9dd8a0193cd0078958a3ccccd800392
 Description:  MACsec is an encryption standard for Ethernet.
 
 Package: kmod-macvlan
@@ -1968,10 +1968,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 9955
+Installed-Size: 9956
 Filename: kmod-macvlan_6.6.58-1_x86_64.ipk
-Size: 10750
-SHA256sum: dfe2b2f42f865206a604a82c7ef00f74389da57ef661a2c67fa3428c5bda4a8e
+Size: 10751
+SHA256sum: 52dafd8559d1a464d9bdbe436d8dde0ebd2388158a947875de0faa17cda11b80
 Description:  A kernel module which allows one to create virtual interfaces that
  map packets to or from specific MAC addresses to a particular interface
 
@@ -1981,10 +1981,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-libphy
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1333
+Installed-Size: 1332
 Filename: kmod-mdio-devres_6.6.58-1_x86_64.ipk
 Size: 2103
-SHA256sum: ca3dd898826e2a220b31784a2b5d601a1308fd34bb675ca3a33ad77e0fd1116f
+SHA256sum: b02a1255953fca5fb524bedb001fae722a7c67b05796be666032f1c48660a369
 Description:  Supports MDIO device registration
 
 Package: kmod-mdio
@@ -1995,8 +1995,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3301
 Filename: kmod-mdio_6.6.58-1_x86_64.ipk
-Size: 4040
-SHA256sum: 15454bc0365ce93f994b41d0191f83f03509d38c45c78bf884bedd3dc4509a06
+Size: 4033
+SHA256sum: 73fa41b83a8825a61af3db324cbe26b52f7c0d612179fe3c273b44d03103efe0
 Description:  Kernel modules for MDIO (clause 45) PHY support
 
 Package: kmod-mhi-bus
@@ -2008,7 +2008,7 @@ Architecture: x86_64
 Installed-Size: 30570
 Filename: kmod-mhi-bus_6.6.58-1_x86_64.ipk
 Size: 31280
-SHA256sum: 611f75c61df7ff892d06d67cb88a848189212a32abd81db2736067a19184e6ee
+SHA256sum: acf6a3a7d87a0025d9e57cacd9904b4926fb35f04e9b78ecac4f26b30ed62489
 Description:  Kernel module for the Qualcomm MHI bus.
 
 Package: kmod-mii
@@ -2017,10 +2017,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4325
+Installed-Size: 4324
 Filename: kmod-mii_6.6.58-1_x86_64.ipk
-Size: 5047
-SHA256sum: c60d1511d10bc3ae29ef07bd4f7a1bc95717e05fa5b3b0e89cc94e2afd9cc828
+Size: 5039
+SHA256sum: 7ac063d71b87f0d297635e7f41f0e11db242c455f474a0572770c42ffd0b2593
 Description:  MII library
 
 Package: kmod-mlx4-core
@@ -2029,10 +2029,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ptp
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 185067
+Installed-Size: 185070
 Filename: kmod-mlx4-core_6.6.58-1_x86_64.ipk
-Size: 185248
-SHA256sum: ebdd97fcdd0d2e61fc47aa3484850b6b916789c45ef19d6866085f74a7efa99b
+Size: 185212
+SHA256sum: 9be74e6f1455c9d5ad8154a36b26fe41a1f556ba0ba0896f2a0087d0b42e577c
 Description:  Supports Mellanox ConnectX-3 series and previous cards
 
 Package: kmod-mlx5-core
@@ -2043,8 +2043,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 291216
 Filename: kmod-mlx5-core_6.6.58-1_x86_64.ipk
-Size: 290474
-SHA256sum: 19b0007fef799990ec09ef7052e186adb41be107726c140dce9ceef46942bef3
+Size: 290451
+SHA256sum: 6d9494deaaccb342928163edb7fd93f57b31f66e859e0a85ced1b7c4cd14a1de
 Description:  Supports Mellanox Connect-IB/ConnectX-4 series and later cards
 
 Package: kmod-mlxfw
@@ -2055,8 +2055,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 7921
 Filename: kmod-mlxfw_6.6.58-1_x86_64.ipk
-Size: 8693
-SHA256sum: 0a68b9e93d2ca9934d1ab4c108d22fa974073e21c68c6c3c8d2f23167b8423e2
+Size: 8701
+SHA256sum: 19abc5f18707b7b2578f3346aa5bc0f024dd825a982e6ed52752e1dfc7d88972
 Description:  This driver supports Mellanox Technologies Firmware
  flashing common logic.
 
@@ -2066,10 +2066,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 227
+Installed-Size: 228
 Filename: kmod-mmc_6.6.58-1_x86_64.ipk
-Size: 944
-SHA256sum: 0a37bf2a07aef65be432cb814b53ccdb59c812bf6ad169299e6871ccd83ece8e
+Size: 948
+SHA256sum: 55ba2a319c7bd8b7478f4ae6020c97cef16a1f8d5a6052f626558bbaf8bc3a2d
 Description:  Kernel support for MMC/SD cards
 
 Package: kmod-mppe
@@ -2078,10 +2078,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ppp, kmod-cry
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3873
+Installed-Size: 3874
 Filename: kmod-mppe_6.6.58-1_x86_64.ipk
-Size: 4634
-SHA256sum: 607c2e29779bc2cbbffce8e49085953705a830f172c7868f00b89a487f9b5dae
+Size: 4640
+SHA256sum: 618cc239d1f237fb2b0e28a2c56b3b01f1f4ba2a8a8e614f63d7b8f9a41367b1
 Description:  Kernel modules for Microsoft PPP compression/encryption
 
 Package: kmod-mt76-connac
@@ -2090,10 +2090,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25834
+Installed-Size: 25829
 Filename: kmod-mt76-connac_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 26593
-SHA256sum: b261b29202586234c58c5deb23dfa48f6623775cdd653ff074740f1580238981
+Size: 26587
+SHA256sum: ae147f337b1c9d4fddbfa3b2584cac246539302b871be11fcde74cb89f2ea1c1
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -2102,10 +2102,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 31183
+Installed-Size: 31181
 Filename: kmod-mt76-core_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 31917
-SHA256sum: 1fb90d1be7e2dd2d148db8864eaa52dfc38ded8d1b15baca5b49052541899040
+Size: 31916
+SHA256sum: 9b5f0e5b701d6f781099e3046451abcd86497fd391f8c09b7b515687de1b1fc7
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7615-common
@@ -2114,10 +2114,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 42104
+Installed-Size: 42103
 Filename: kmod-mt7615-common_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 42770
-SHA256sum: ff68c03c2558aba176d0d22ce65081adaca956f659bcd3e4614adcc177e6686c
+Size: 42781
+SHA256sum: 3fbfbde5d804b556752d5fd5e5be9680e6230aed8241b61ccd8cbc9159c2180f
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615e
@@ -2128,8 +2128,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 9166
 Filename: kmod-mt7615e_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 9956
-SHA256sum: fc068807b5d8144e7ae9a2175696d57a9ba2d748bb4bd52954cc8344bab975ac
+Size: 9952
+SHA256sum: 86db18febbc02ef5691e6d3347ad532ba5832c7cac8b5d88123a25a111335a8e
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt76x02-common
@@ -2138,10 +2138,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 27230
+Installed-Size: 27229
 Filename: kmod-mt76x02-common_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 28014
-SHA256sum: f44b45d18b3e49e4d924b3dc86e8d51ad515851e3a6c28ff7708b64a76f5230e
+Size: 28022
+SHA256sum: 748ed19b09096014a332d1274e76a4e1c865473f579a10835e69473799fa385f
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x2-common
@@ -2152,8 +2152,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 79602
 Filename: kmod-mt76x2-common_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 80511
-SHA256sum: 8bd03b4c3fa37a090dde6be4a27be9aab33a987356756caacecf407203a3f496
+Size: 80515
+SHA256sum: cd2a93138a728b1099a92fb72ee68a5291e46e3cef5e2034bc4dc78ec3fd711d
 Description:  MediaTek MT76x2 wireless driver common code
 
 Package: kmod-mt76x2
@@ -2162,10 +2162,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8959
+Installed-Size: 8958
 Filename: kmod-mt76x2_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 9761
-SHA256sum: daa6a15abdca9c048e242dd55a474d3daf057dd178682c4fe4842aa655fd6aea
+Size: 9757
+SHA256sum: 359720647681e9048240871ffca48aa4c0ca6d00f6c2335b0a8558e38577e7a7
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt7915e
@@ -2174,10 +2174,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 63620
+Installed-Size: 63619
 Filename: kmod-mt7915e_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 64209
-SHA256sum: 5ea02ba29bfbf16db6b89e7b50ea2308ba29a838349096ae558d9e1e893df08c
+Size: 64193
+SHA256sum: 14ef8cb1e6b0e12f0ee5c8e82828a890215e2cef3e72b4216134b9a198be15bc
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
@@ -2186,10 +2186,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 693572
+Installed-Size: 693567
 Filename: kmod-mt7916-firmware_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 689339
-SHA256sum: ecc308823446c9f1127055731873dbd8019d63493c7caa2b93ecd36f13e66e30
+Size: 689348
+SHA256sum: b8477d2a0f8e866cfe2229c49b3da68645dd68a6ed8ebdf1c885038d2b798307
 Description:  MediaTek MT7916 firmware
 
 Package: kmod-mt7921-common
@@ -2198,10 +2198,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25872
+Installed-Size: 25871
 Filename: kmod-mt7921-common_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 26595
-SHA256sum: 68b6607a93d082c54e10a995c5c81cb6d5949acef242a8f5a75f7878f55300b6
+Size: 26597
+SHA256sum: 41c27986c40841144efee2899beffa4335d17242d457189c14bad3cc9d82af1c
 Description:  MediaTek MT7921 wireless driver common code
 
 Package: kmod-mt7921-firmware
@@ -2210,10 +2210,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 513220
+Installed-Size: 513219
 Filename: kmod-mt7921-firmware_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 512394
-SHA256sum: 916cd953b87cf93da11250755169903a2c97c59d3e4d6c274923c3c3c78f31c1
+Size: 512359
+SHA256sum: 380d6f5d28f17780a790c7bd279eb06481d0b38662c4e6ab6e5e63ed318552a6
 Description:  MediaTek MT7921 firmware
 
 Package: kmod-mt7921e
@@ -2222,10 +2222,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6744
+Installed-Size: 6743
 Filename: kmod-mt7921e_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 7555
-SHA256sum: d127161829b878b2b58faf23da8d7c2869ad8fe971b9229f26b4d00b7d2deec9
+Size: 7568
+SHA256sum: 6d2a55fb3ce82fd99ac085c4c7dea2337a64c3991fcd1a33626c6646868b6284
 Description:  MediaTek MT7921e wireless driver
 
 Package: kmod-mt7922-firmware
@@ -2234,10 +2234,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1091558
+Installed-Size: 1091557
 Filename: kmod-mt7922-firmware_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
-Size: 1092356
-SHA256sum: 51862b22772bcd9d34be128538b993c4b20b5e72ad9ee926f0fede779508c917
+Size: 1092380
+SHA256sum: 070012ffe161f85c168a4d72489b89c556f8b13cab6dcec566a251acbc1755c1
 Description:  MediaTek MT7922 firmware
 
 Package: kmod-mt792x-common
@@ -2249,7 +2249,7 @@ Architecture: x86_64
 Installed-Size: 16105
 Filename: kmod-mt792x-common_6.6.58+2024-04-04-8f301a5c-1_x86_64.ipk
 Size: 16861
-SHA256sum: 4f6f76484c1193751883007e8be69b98921b8e4ada79a5a4206acecef03af63c
+SHA256sum: 76f53f966b0dd148a6d3355f1c231b44c1f5dd327077ea37e5392406e93b71b3
 Description:  MediaTek MT792x wireless driver common code
 
 Package: kmod-net-selftests
@@ -2260,8 +2260,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3283
 Filename: kmod-net-selftests_6.6.58-1_x86_64.ipk
-Size: 4032
-SHA256sum: 920ef286cd079e27b8604cb4c60bc79ecc60b2fac8acf1753c3a8e0a83dd68f4
+Size: 4031
+SHA256sum: 467c3e10d950ad41eaa82da9e559925437d4ffe5fc0813c4bb99b75bd6b96869
 Description:  Kernel modules for the generic selftest support
 
 Package: kmod-nf-conntrack-netlink
@@ -2270,10 +2270,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nfnetlink, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 15436
+Installed-Size: 15437
 Filename: kmod-nf-conntrack-netlink_6.6.58-1_x86_64.ipk
-Size: 16220
-SHA256sum: 80753f67ef95609f5ee989fb41bd4258fc983e0d71e96fccc27a84f1eba95f96
+Size: 16221
+SHA256sum: 8f06c3bf66dc31e05038c074e7c4af16b7bedd34b407acd5f736d25f4defbf5e
 Description:  Kernel modules support for a netlink-based connection tracking
  userspace interface
 
@@ -2285,8 +2285,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-nf-conntrack6_6.6.58-1_x86_64.ipk
-Size: 820
-SHA256sum: effc137a66c091eae889d24e94f26f0733a8b89f4424ec7ce5ea510191b4009d
+Size: 818
+SHA256sum: fa78e7d31bc7c63e29023afdb105c09aae15e38a97c2f72b05094b3caea8abca
 Description:  Netfilter IPv6 connection tracking
 
 Package: kmod-nf-conntrack
@@ -2295,10 +2295,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 51157
+Installed-Size: 51153
 Filename: kmod-nf-conntrack_6.6.58-1_x86_64.ipk
-Size: 51802
-SHA256sum: 48e647ab8e66924d18dd9a0fadf9beaa05d180e4290f7b7f3fdbcec4d46d344c
+Size: 51812
+SHA256sum: bd5650bf3313b7aedd939c0517fcf7138c932ba8329a09b278811263c87c115f
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-ipt6
@@ -2307,10 +2307,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-ipt, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8093
+Installed-Size: 8094
 Filename: kmod-nf-ipt6_6.6.58-1_x86_64.ipk
-Size: 8844
-SHA256sum: d585cfbe40cb4bf07195af4496c3881fe3a2dd77b73cf46292113c76981ed94c
+Size: 8853
+SHA256sum: 8c4ee84b55b5c6a557b6cbdcb384ecc0e905c748c74eecc1bcc0895c2e784a38
 Description:  Ip6tables core
 
 Package: kmod-nf-ipt
@@ -2321,8 +2321,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 19825
 Filename: kmod-nf-ipt_6.6.58-1_x86_64.ipk
-Size: 20505
-SHA256sum: faf4cb41d2b201edaa40e26755f00e63104e8deaa4964e13957bb36025fe7c4f
+Size: 20503
+SHA256sum: 0d8f3eff44d68d9ef6034162868a11e0124dd4544845531637d5587e48e18cf9
 Description:  Iptables core
 
 Package: kmod-nf-log6
@@ -2333,8 +2333,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-nf-log6_6.6.58-1_x86_64.ipk
-Size: 814
-SHA256sum: 63432a0022b50c2eb1bd57c37c46569c0e1c7b6cab51b479af35badbbd3b75c2
+Size: 812
+SHA256sum: 8b89bbc6f2d00c8080b38a45284d5146933724cade083a7408b5b5b9c9bc3ecc
 Description:  Netfilter IPV6 Logging
 
 Package: kmod-nf-log
@@ -2345,8 +2345,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 6995
 Filename: kmod-nf-log_6.6.58-1_x86_64.ipk
-Size: 7753
-SHA256sum: 6f39d11c2aee4b24b2e407af3485499060743c33bcf032730f6f955ec0f3c0c7
+Size: 7748
+SHA256sum: be8b643eb38192ba55e787642b51a079ce97e7cd59962baa48bdcab719bf1d30
 Description:  Netfilter Logging
 
 Package: kmod-nf-nat6
@@ -2357,8 +2357,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-nf-nat6_6.6.58-1_x86_64.ipk
-Size: 815
-SHA256sum: ecdf519c6fa684e036aaa6faa27c1961704d5fa4720e544bcaca1fc4353dc025
+Size: 818
+SHA256sum: 235304f24ea0cd13d0613f5005dd4d33eacc94e5d92e7bfc491efaa79eed1b62
 Description:  Netfilter IPV6-NAT
 
 Package: kmod-nf-nat
@@ -2367,10 +2367,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-conntrack
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 14785
+Installed-Size: 14786
 Filename: kmod-nf-nat_6.6.58-1_x86_64.ipk
-Size: 15511
-SHA256sum: 19ca537fa516b454a029811ca08f3343837fee9522464ff927847d739267e4a1
+Size: 15506
+SHA256sum: 95a5b0887870d76f5b3bf6d1c4d60cb4e45e1781ee236ff606c2fd73bc39a495
 Description:  Netfilter NAT
 
 Package: kmod-nf-nathelper-extra
@@ -2379,10 +2379,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-nat, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 50122
+Installed-Size: 50123
 Filename: kmod-nf-nathelper-extra_6.6.58-1_x86_64.ipk
-Size: 50980
-SHA256sum: 4d33c7bc7711ea45119e5fdcb31e237db9c0e959f74f35327aa94211adf5d1bd
+Size: 50975
+SHA256sum: ed0bca3131c31953c074f484e4ca3f8293a025a82595899bfc52357f7719403d
 Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - amanda
@@ -2402,10 +2402,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nf-nat
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5394
+Installed-Size: 5393
 Filename: kmod-nf-nathelper_6.6.58-1_x86_64.ipk
-Size: 6140
-SHA256sum: 34feb14f56dbe025a7671ef3ff85f11eacd02a57cb535d246c8ee0daa93b1aa3
+Size: 6147
+SHA256sum: 76cc024e646d2eaa3dae9524f0a1743c77848084ae7d2ebbe1a810dab759e965
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp
@@ -2416,10 +2416,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4111
+Installed-Size: 4110
 Filename: kmod-nf-reject6_6.6.58-1_x86_64.ipk
-Size: 4838
-SHA256sum: eced8db22a6407a3808804cddde37561338e7cb8087cd740731c8d04c5db44c0
+Size: 4849
+SHA256sum: 803549991d3305ad8a16a3dc3eab6393c89aa076472252237b1cf461a533ffe4
 Description:  Netfilter IPv6 reject support
 
 Package: kmod-nf-reject
@@ -2430,8 +2430,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3926
 Filename: kmod-nf-reject_6.6.58-1_x86_64.ipk
-Size: 4651
-SHA256sum: 80b1d30fba6bb9d032fd5dbce0887ab00365efaa2b96fb1a1a3f10a5df9fbd97
+Size: 4652
+SHA256sum: 8402df49036b866cf6b75d6631cd564fa5dd2b84af3707f2f3d42fc98081066c
 Description:  Netfilter IPv4 reject support
 
 Package: kmod-nf-tproxy
@@ -2440,10 +2440,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3159
+Installed-Size: 3161
 Filename: kmod-nf-tproxy_6.6.58-1_x86_64.ipk
-Size: 3890
-SHA256sum: 2b948aa6ed8c72a798f621035d6d13deae38df4dd6846c11f7512e79efe17655
+Size: 3900
+SHA256sum: 079113e7b0490ef89a76567b8c11a6fa9c80f48caec49593e1ce2b4adc68caef
 Description:  Netfilter tproxy support
 
 Package: kmod-nfnetlink
@@ -2454,8 +2454,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 5547
 Filename: kmod-nfnetlink_6.6.58-1_x86_64.ipk
-Size: 6253
-SHA256sum: d3c4864f57085f6a510740e8942b62cfcd89d8a16b0a949f5568c1c920f77158
+Size: 6255
+SHA256sum: 2b5e2283fbb402c9770f88271956a70243f4e91dc83214dc42b1619f0af324ad
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: kmod-nft-core
@@ -2464,10 +2464,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nfnetlink, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 125941
+Installed-Size: 125942
 Filename: kmod-nft-core_6.6.58-1_x86_64.ipk
-Size: 126626
-SHA256sum: 61669e4f0d18b417232273196881a1d19b72afea3b7f5131562bf98e2d6f7bf2
+Size: 126624
+SHA256sum: 2e1a152dae6e692ed744a4c6535f94bf28282076b0febe8e1c8569f5d46caeca
 Description:  Kernel module support for nftables
 
 Package: kmod-nls-base
@@ -2478,8 +2478,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-nls-base_6.6.58-1_x86_64.ipk
-Size: 828
-SHA256sum: 62e4dab47816fe7c6eb4376dd6d0731d892a3885429307bf4b631257511c492b
+Size: 829
+SHA256sum: 1f702eeb2070eb0f96d3cdfac4be6be975979709fd5bed43128a87e2f9fadeba
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-nls-cp437
@@ -2488,10 +2488,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2240
+Installed-Size: 2241
 Filename: kmod-nls-cp437_6.6.58-1_x86_64.ipk
-Size: 2999
-SHA256sum: b1834c43a020c1e0e5ceb2b82c72ab5f01e51073fabd81ac5d747a51412ffdf8
+Size: 3007
+SHA256sum: c3a4b1e657e11f975128759f899592052785898684de8dba354da70224b27911
 Description:  Kernel module for NLS Codepage 437 (United States, Canada)
 
 Package: kmod-nls-cp936
@@ -2500,10 +2500,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 85656
+Installed-Size: 85659
 Filename: kmod-nls-cp936_6.6.58-1_x86_64.ipk
-Size: 86336
-SHA256sum: f64fc03b80b41efd42c719a1d8864c498c86aa446bd6d9a011a680093ac3a3b6
+Size: 86358
+SHA256sum: 2b8449a5d72be1c3262e17cee82933ba5f233b23cae872cd5990617fd26fc336
 Description:  Kernel module for NLS Codepage 936 (Simplified Chinese)
 
 Package: kmod-nls-iso8859-1
@@ -2512,10 +2512,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-nls-base
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1928
+Installed-Size: 1929
 Filename: kmod-nls-iso8859-1_6.6.58-1_x86_64.ipk
-Size: 2675
-SHA256sum: 94490d0698b096342bf6bd51fe16d58a7efea9e1bfb0847361d4bd6e21275c70
+Size: 2680
+SHA256sum: 947e39c2cf9b010d29f5af69dade1439a7e6febff6214606b036a62228bc6fab
 Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
 
 Package: kmod-nls-utf8
@@ -2526,8 +2526,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1154
 Filename: kmod-nls-utf8_6.6.58-1_x86_64.ipk
-Size: 1917
-SHA256sum: facdfcf7b6a26ba87aecfb55e9229f93a5e7c324b4acde515fb8c78cf04fb66f
+Size: 1910
+SHA256sum: 9eba8884b52ec69c90d5053c1cc91be6d136fd8f901bddf85815bc31fe25f013
 Description:  Kernel module for NLS UTF-8
 
 Package: kmod-nvme
@@ -2536,10 +2536,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-hwmon-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 227
+Installed-Size: 228
 Filename: kmod-nvme_6.6.58-1_x86_64.ipk
-Size: 999
-SHA256sum: 0827ff6f3fdac623a06f6008cdd229439031a1e83f0ac4c999588a118af3674c
+Size: 997
+SHA256sum: dee881e89a17dbcdb8474099e19d59734da3d0ce0f3e69dfbe1a663e4038631b
 Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
 
@@ -2551,8 +2551,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 18878
 Filename: kmod-pcnet32_6.6.58-1_x86_64.ipk
-Size: 19619
-SHA256sum: 988598371401710298299f052397b7adc056b28935fd2a6d49b726612bf44738
+Size: 19621
+SHA256sum: f7fc49e68c3972b36c9b1133ed366fa4dab323427b9739f6bf7e8b650613303d
 Description:  Kernel modules for AMD PCnet32 Ethernet adapters
 
 Package: kmod-phy-ax88796b
@@ -2563,8 +2563,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1500
 Filename: kmod-phy-ax88796b_6.6.58-1_x86_64.ipk
-Size: 2279
-SHA256sum: 7c6c8ba15f7b568f1492b063bb814a8a4fed3ba8fcea7f4ba43506d43c3de002
+Size: 2276
+SHA256sum: ac055ea395126abf485bbaa96c0f568c05f54243926db4b6e5622600f04e0baf
 Description:  Currently supports the Asix Electronics PHY found in the X-Surf 100
  AX88796B package.
 
@@ -2574,10 +2574,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-libphy
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 16412
+Installed-Size: 16411
 Filename: kmod-phylink_6.6.58-1_x86_64.ipk
-Size: 17182
-SHA256sum: 5fc56e8caab4aa1da3d3244eb89253ee8bc5497ea7fa2743f4f63145f5a64091
+Size: 17167
+SHA256sum: 57a69b506d80a09bf55257e7239a906b773510086999b1266ac2784528ab5d88
 Description:  Model for MAC to optional PHY connection
 
 Package: kmod-ppp
@@ -2586,10 +2586,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-lib-crc-ccitt
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 23667
+Installed-Size: 23668
 Filename: kmod-ppp_6.6.58-1_x86_64.ipk
-Size: 24405
-SHA256sum: 10de3d7f5519f425395b38ead8e2005e7176abfdd759131ce02d871cde6a48b6
+Size: 24408
+SHA256sum: dfed604d5d5f39456486ebe78f11cca8d44474f4bb87b33dac9c91d6ac987770
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoe
@@ -2600,8 +2600,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 7134
 Filename: kmod-pppoe_6.6.58-1_x86_64.ipk
-Size: 7918
-SHA256sum: d7729e285ba2af7a3461121cc550a6c69dbbb574b16f437d4bf10cbe80af59e2
+Size: 7920
+SHA256sum: ff79ac49a6e3292b041bcd63d4e6af699327c915d15bb85d53f34eead3620773
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -2610,10 +2610,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ppp, kmod-ppp
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8573
+Installed-Size: 8577
 Filename: kmod-pppol2tp_6.6.58-1_x86_64.ipk
-Size: 9324
-SHA256sum: 87535db4a5b64e27c9632c02853de4dc5769c103df21b134f85a752a91f9390c
+Size: 9330
+SHA256sum: 5c2f8c0aef4c7abe389f999ce46a317365991856fa739a9f25771ed434495287
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -2624,8 +2624,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1916
 Filename: kmod-pppox_6.6.58-1_x86_64.ipk
-Size: 2644
-SHA256sum: 51f504f95b64e6c93db4d872a0f368a62c3f2f77b5db3b33cba0f2ab1750c761
+Size: 2643
+SHA256sum: 8fba527148fa1d657acb1f127b8b61d63f7940bc822704ecca4e0257b37278bc
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pps
@@ -2634,10 +2634,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 222
+Installed-Size: 223
 Filename: kmod-pps_6.6.58-1_x86_64.ipk
-Size: 1013
-SHA256sum: e6efc976c1cd5603e7f23a95f74fe4c387b734a161dc27628a6a75002db51977
+Size: 1007
+SHA256sum: 982cf4b1e970a7ae8212b46eaccdfafdbabb2564779ef7335c435a9760a76862
 Description:  PPS (Pulse Per Second) is a special pulse provided by some GPS
  antennae. Userland can use it to get a high-precision time
  reference.
@@ -2648,10 +2648,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-ppp, kmod-gre
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5193
+Installed-Size: 5191
 Filename: kmod-pptp_6.6.58-1_x86_64.ipk
-Size: 5887
-SHA256sum: 3373127c8ba65c41d11083ba970f8e5a968fced55aee7a13a6b5a852a4aba615
+Size: 5881
+SHA256sum: ed87fabe70e421e01c87f815ab42bf9e549c881f4ec9fdb79198f630e1cfdd4a
 Description:  PPtP support
 
 Package: kmod-ptp
@@ -2660,10 +2660,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-pps
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 217
+Installed-Size: 220
 Filename: kmod-ptp_6.6.58-1_x86_64.ipk
-Size: 995
-SHA256sum: 3cf83d9218115c1da2254560d29c2403ad6528d0c97de568b0e29be00aabc039
+Size: 997
+SHA256sum: 74142c9251b02eb5f540c98af20636d0a083ff5db01234088a94fe425cd86cb0
 Description:  The IEEE 1588 standard defines a method to precisely
  synchronize distributed clocks over Ethernet networks.
 
@@ -2675,8 +2675,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1817
 Filename: kmod-qrtr-mhi_6.6.58-1_x86_64.ipk
-Size: 2546
-SHA256sum: 32418d635c05535bdca2ef39b4a15203e24c524a1ed16505ed006887425f72ab
+Size: 2547
+SHA256sum: c378b8c3c5c3d72c78dd125e5ff8c502ca18063bc401c1aeb73970f34a1a8df4
 Description:  MHI IPC Router channels
 
 Package: kmod-qrtr
@@ -2688,7 +2688,7 @@ Architecture: x86_64
 Installed-Size: 10859
 Filename: kmod-qrtr_6.6.58-1_x86_64.ipk
 Size: 11607
-SHA256sum: 85eaca849fd161a1d9aee8547617e7c8a38bf983e6bf3e83c2a356476654dd02
+SHA256sum: 690825997011d566c5391ac99de93e2d9393bcf9564c7166f95f804b3a26b953
 Description:  Qualcomm IPC Router support
 
 Package: kmod-r8125-rss
@@ -2699,10 +2699,10 @@ Provides: kmod-r8169
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 82318
+Installed-Size: 82320
 Filename: kmod-r8125-rss_6.6.58+9.013.02-1_x86_64.ipk
-Size: 83020
-SHA256sum: 31a8dc188617557e12394d2126ad81756f9e54545c8ff0360fcccfc5af58bca2
+Size: 83011
+SHA256sum: ecfe25de946189d8f337b15e4e75db8613d799e68cd53d38773615cdf408c3d2
 Description:  Realtek RTL8125 PCI 2.5 Gigabit Ethernet driver (RSS)
 
 Package: kmod-r8125
@@ -2712,10 +2712,10 @@ Provides: kmod-r8169
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 80475
+Installed-Size: 80473
 Filename: kmod-r8125_6.6.58+9.013.02-1_x86_64.ipk
-Size: 81085
-SHA256sum: fa2cc44c90d8eb6b6faa30da9fe8ac2f2d960f17c1315e7d1858a2d967ce811c
+Size: 81114
+SHA256sum: b6551b2877f0b1f537c715114308fde8953d37d03e3dacc35d6a74ba181fbdee
 Description:  Realtek RTL8125 PCI 2.5 Gigabit Ethernet driver
 
 Package: kmod-r8126-rss
@@ -2726,10 +2726,10 @@ Provides: kmod-r8169
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 64596
+Installed-Size: 64593
 Filename: kmod-r8126-rss_6.6.58+10.013.00-1_x86_64.ipk
-Size: 65270
-SHA256sum: 0a3ae7281914e2256d2a2163b132057f6c6043a1f17201e69ae1a644c2413873
+Size: 65257
+SHA256sum: 2298b4a234ce48155536a6115e885a3df763c53ed44bdfd89031995934644b64
 Description:  Realtek RTL8126 PCI 5 Gigabit Ethernet driver (RSS)
 
 Package: kmod-r8168
@@ -2739,10 +2739,10 @@ Provides: kmod-r8169
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 168145
+Installed-Size: 168137
 Filename: kmod-r8168_6.6.58+8.053.00-1_x86_64.ipk
-Size: 167294
-SHA256sum: 0f95f5598b1d9951934df03b257dc9201844ef77cdfa3f2ce180108c6dcd377e
+Size: 167335
+SHA256sum: c6f07b0cbbcbdb232c0eca62735cea386890776d1f14152aa87f8e4b989567ac
 Description:  Realtek RTL8168 PCI Gigabit Ethernet driver
 
 Package: kmod-sched-cake
@@ -2751,10 +2751,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-sched-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 15022
+Installed-Size: 15024
 Filename: kmod-sched-cake_6.6.58-1_x86_64.ipk
-Size: 15796
-SHA256sum: a397a7e0c33bc4f97751b66f70f9d3973df9d1003e794a3d96ea72ffb0c806b6
+Size: 15800
+SHA256sum: e83b28dcc5dc31c37bbe87b33a283e498de91c5323123ca9f0f6609b4116eebf
 Description:  Common Applications Kept Enhanced fq_codel/blue derived shaper
 
 Package: kmod-sched-core
@@ -2763,10 +2763,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 63816
+Installed-Size: 63811
 Filename: kmod-sched-core_6.6.58-1_x86_64.ipk
-Size: 64625
-SHA256sum: b24353aafdaf0cb3c04cbcd2b91d4821bcac648a6c10d673beef3791ba6efd31
+Size: 64606
+SHA256sum: 7f117eb05039f6bd50b2f3b37d5f7cb217a6256fc2c274a1222b9e6e4d291f70
 Description:  Core kernel scheduler support for IP traffic
 
 Package: kmod-scsi-core
@@ -2775,10 +2775,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 237
+Installed-Size: 238
 Filename: kmod-scsi-core_6.6.58-1_x86_64.ipk
-Size: 959
-SHA256sum: db58a0482971d53ea2a2e19ad27021d37206f2eb8cdc3c8200f3be66d1d3ecf9
+Size: 957
+SHA256sum: e942deb3024fd436af597b7199f82bfb5be12a035e5f8b6932129adf94bc4b28
 Description:  SCSI device support
 
 Package: kmod-scsi-generic
@@ -2789,8 +2789,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 15960
 Filename: kmod-scsi-generic_6.6.58-1_x86_64.ipk
-Size: 16708
-SHA256sum: 2909e73486a79106e6483d49c867b2f69f287c5c40aa699bc7d761eda6eb18cc
+Size: 16704
+SHA256sum: 98d925ab502f40a6d5ba3665672f3b9366c49a224bf25bf97d66e2e9632522c8
 Description:  Kernel support for SCSI generic
 
 Package: kmod-sdhci
@@ -2799,10 +2799,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mmc
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2720
+Installed-Size: 2718
 Filename: kmod-sdhci_6.6.58-1_x86_64.ipk
-Size: 3454
-SHA256sum: 640ba5d091b040763e2d614a33ea81d0cb18cfc35bc0951b8933043d278f3c5f
+Size: 3456
+SHA256sum: dde29c66125cbeb03bedbfed3c8e6a5bf8db7915ae7139ea3efa1ebf9183f833
 Description:  Kernel support for SDHCI Hosts
 
 Package: kmod-sit
@@ -2811,10 +2811,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-iptunnel, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 12458
+Installed-Size: 12459
 Filename: kmod-sit_6.6.58-1_x86_64.ipk
-Size: 13226
-SHA256sum: c1628ae1b5e1123f65b402e22619027aacf361dd09f01947218bd3b1d13a79bf
+Size: 13229
+SHA256sum: 92799d3d0e5fdeb2b0da5210a558b69f51175f0d8b3033b3f4bdcb3942b5bc7b
 Description:  Kernel modules for IPv6-in-IPv4 tunnelling
 
 Package: kmod-slhc
@@ -2823,10 +2823,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-lib-crc-ccitt
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4280
+Installed-Size: 4281
 Filename: kmod-slhc_6.6.58-1_x86_64.ipk
-Size: 5011
-SHA256sum: 3aec7e6e6830bc77f98b6d49e4a19879768985c95efb458aba087eca8f5695c1
+Size: 5013
+SHA256sum: 4108d3173d038cef98b42c90f3a4aea39a3bd81a910c1c68cd159e9d3a2f0f4d
 Description:  Serial Line Header Compression
 
 Package: kmod-tg3
@@ -2835,10 +2835,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-libphy, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 82406
+Installed-Size: 82409
 Filename: kmod-tg3_6.6.58-1_x86_64.ipk
-Size: 82883
-SHA256sum: cfb38388b976e974ad028491d3342a2316ee900043e448b50766928ef8a510db
+Size: 82892
+SHA256sum: 83fe59754f166282d0da08261963f269bf69e16e03e581c9d3fc757d816b37aa
 Description:  Kernel modules for Broadcom Tigon3 Gigabit Ethernet adapters
 
 Package: kmod-thermal
@@ -2849,8 +2849,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 95
 Filename: kmod-thermal_6.6.58-1_x86_64.ipk
-Size: 886
-SHA256sum: af243063f55d2d3037ab108dc95f6f4c75cb7e5f9591aa62215e7c129849a466
+Size: 885
+SHA256sum: 2af24ea65c008192d51e6f923825b401a6f5be10c432e54c305577f9d1a09225
 Description:  Thermal driver offers a generic mechanism for thermal management.
  Usually it's made up of one or more thermal zone and cooling device.
 
@@ -2860,10 +2860,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mii
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 72337
+Installed-Size: 72328
 Filename: kmod-tulip_6.6.58-1_x86_64.ipk
-Size: 73242
-SHA256sum: c1e922925eff9c579f84c879100efc24fbfb79f6ea8a3dc57ad132106c44af2c
+Size: 73230
+SHA256sum: db1ebde7cb2cdd637e0ca5ceca861e0322aef16e72d53ebda00eafb144d8bc54
 Description:  Kernel modules for the Tulip family of network cards,
  including DECchip Tulip, DIGITAL EtherWORKS, Winbond W89c840,
  Davicom DM910x/DM980x and ULi M526x controller support.
@@ -2874,10 +2874,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25126
+Installed-Size: 25128
 Filename: kmod-tun_6.6.58-1_x86_64.ipk
-Size: 25818
-SHA256sum: e41439de7662f3813fc04548bb4e89db4ad65a4d2e72336acc45eaa026a5c578
+Size: 25824
+SHA256sum: f1d9f1c204c683d13028ac41db84068c8cad231d059803796dea989a64986ded
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-udptunnel4
@@ -2886,10 +2886,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7456
+Installed-Size: 7457
 Filename: kmod-udptunnel4_6.6.58-1_x86_64.ipk
-Size: 8222
-SHA256sum: ae57ea176288d54ed1b5014620d94b2770f04855fd176ea21a74454a32d4e41a
+Size: 8216
+SHA256sum: ac90700aa96cd8c31d624952ab1fc7e91a4945be01c19dbb25f8a9f955c5a687
 Description:  IPv4 UDP tunneling support
 
 Package: kmod-udptunnel6
@@ -2898,10 +2898,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2093
+Installed-Size: 2091
 Filename: kmod-udptunnel6_6.6.58-1_x86_64.ipk
-Size: 2810
-SHA256sum: 0b7c08fc9371500ed4cecbc5283261144268963776dae215603f7f38f98d67b9
+Size: 2806
+SHA256sum: ff0f20282abe61ce1ef98678842a8e908d0be76aec09294633ce7b94a7460bc2
 Description:  IPv6 UDP tunneling support
 
 Package: kmod-usb-acm
@@ -2910,10 +2910,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 11247
+Installed-Size: 11250
 Filename: kmod-usb-acm_6.6.58-1_x86_64.ipk
-Size: 12028
-SHA256sum: 532bf6378de1271557bce73336e3b0bb27385a47f5653094fb56621e6ebdb112
+Size: 12039
+SHA256sum: 444d879604ba1bc226074dcb0fb456fcd7ddf9dff6629cb03da02eb5de5d7366
 Description:  Kernel support for USB ACM devices (modems/isdn controllers)
 
 Package: kmod-usb-core
@@ -2924,8 +2924,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 230
 Filename: kmod-usb-core_6.6.58-1_x86_64.ipk
-Size: 957
-SHA256sum: c77e21424c883b484c86e376138d9e2eb222d50f7cad5f1c14ec141acd4432bf
+Size: 956
+SHA256sum: c7ae5e3c46ab48517162b3b2226645715305f9d334a23acbe1023e4ebd5d36a4
 Description:  Kernel support for USB
 
 Package: kmod-usb-dwc2
@@ -2934,10 +2934,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-roles, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 53119
+Installed-Size: 53118
 Filename: kmod-usb-dwc2_6.6.58-1_x86_64.ipk
-Size: 53454
-SHA256sum: 936549d87253204f3dbd5b399d3190d32fbe840062753c901878da057bc972c1
+Size: 53441
+SHA256sum: d7a806d58f488601884752fe1eb6baec2b7a6488a6da6a82dc5c6632a80aa8a6
 Description:  This driver provides USB Device Controller support for the
  Synopsys DesignWare USB OTG Core
 
@@ -2950,7 +2950,7 @@ Architecture: x86_64
 Installed-Size: 17573
 Filename: kmod-usb-dwc3_6.6.58-1_x86_64.ipk
 Size: 17954
-SHA256sum: 3481d0dbcd86c8d806bebdc1cc50f942c36d4112cec5f63e800b5cca0e0633ac
+SHA256sum: c017a4ebd4ec0efd09ceb4105fc5967d5d4caad24dea90fd27b563873e67ae13
 Description:  This driver provides support for the Dual Role SuperSpeed
  USB Controller based on the Synopsys DesignWare USB3 IP Core
 
@@ -2962,8 +2962,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 227
 Filename: kmod-usb-ehci_6.6.58-1_x86_64.ipk
-Size: 955
-SHA256sum: 30d913cb1a23ee111a7b31355cdfb77d72b8ef41396467112d76a1a10ad85dae
+Size: 954
+SHA256sum: c5295d27d907f9059feaa544f62110ad65be431e56b24ec012e71f1ba3c4f761
 Description:  EHCI controller support
 
 Package: kmod-usb-hid
@@ -2972,10 +2972,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-hid, kmod-hid
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 180
+Installed-Size: 181
 Filename: kmod-usb-hid_6.6.58-1_x86_64.ipk
-Size: 953
-SHA256sum: 1afda1eca35b21fd35c86cfad9832c3171c6c3633db417134b7f571767c468be
+Size: 949
+SHA256sum: 98729c4e794cf63eb8b3efd078adc81674688e23bc322f384f7b615e39555466
 Description:  Kernel support for USB HID devices such as keyboards and mice
 
 Package: kmod-usb-net-aqc111
@@ -2984,10 +2984,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8430
+Installed-Size: 8431
 Filename: kmod-usb-net-aqc111_6.6.58-1_x86_64.ipk
-Size: 9199
-SHA256sum: 4d795b8a8daad69d2cc52686e0e2aa6fed88f5c9559aa4e232baa4f82f304ec6
+Size: 9204
+SHA256sum: bfa3568f3b759e17dc36a162c94ab5622836e30490725a30817d7a3005d3ac0e
 Description:  Support for USB-to-Ethernet Aquantia AQtion 5/2.5GbE
 
 Package: kmod-usb-net-asix-ax88179
@@ -2996,10 +2996,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-libphy, kmod-
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8935
+Installed-Size: 8933
 Filename: kmod-usb-net-asix-ax88179_6.6.58-1_x86_64.ipk
-Size: 9657
-SHA256sum: 6a36d716e5aa2e70120c1381083e3c1b93541eac669cd06b0c46227b33febacc
+Size: 9660
+SHA256sum: 6d8d11a886230c27bc26ca4623de9d74f44ea46a89a5600a7db1cc459507b2a1
 Description:  Kernel module for USB-to-Ethernet ASIX AX88179 based USB 3.0/2.0
  to Gigabit Ethernet adapters.
 
@@ -3009,10 +3009,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-phy-ax88796b,
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 13211
+Installed-Size: 13210
 Filename: kmod-usb-net-asix_6.6.58-1_x86_64.ipk
-Size: 13933
-SHA256sum: c683984fe0689b82f2f1bd147332b5c02671b91e025f40c78fef641ffd3aa9c9
+Size: 13934
+SHA256sum: 0c1cbd27e08aefc9651381fd03326de3e07093a0def0839da4eb9d1cd83fa5f4
 Description:  Kernel module for USB-to-Ethernet Asix convertors
 
 Package: kmod-usb-net-cdc-ether
@@ -3023,8 +3023,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3989
 Filename: kmod-usb-net-cdc-ether_6.6.58-1_x86_64.ipk
-Size: 4743
-SHA256sum: 1f75e70ba2a0fd8a1b17ce7d1104402ea06aee8a542d512b2cec32d6dab6e0c6
+Size: 4748
+SHA256sum: baaea5e50208afe41b2ad34cf182f8336f886253846d2411afa75861e1e5a36b
 Description:  Kernel support for USB CDC Ethernet devices
 
 Package: kmod-usb-net-cdc-mbim
@@ -3035,8 +3035,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4088
 Filename: kmod-usb-net-cdc-mbim_6.6.58-1_x86_64.ipk
-Size: 4880
-SHA256sum: 788b5137c34c7b1d467d6b81e23389a816dfc6f9cd4f1e07d3fca65e6c8aff2c
+Size: 4871
+SHA256sum: 05552fd001793c2e38bff7ff4024af356d9e39fdbab975803e7a383a11e24442
 Description:  Kernel module for CDC MBIM (Mobile Broadband Interface Model) devices
 
 Package: kmod-usb-net-cdc-ncm
@@ -3045,10 +3045,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net, kmod
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10278
+Installed-Size: 10279
 Filename: kmod-usb-net-cdc-ncm_6.6.58-1_x86_64.ipk
-Size: 11040
-SHA256sum: 855ab5e79e06fdca2800eb6a2794eae80c935dfc9f2a201f95968a650b1c4e68
+Size: 11046
+SHA256sum: ddb8849cfe2ff4cd7ae3a8cbb8de49996cd76160343fa1adeb01b20eab5f9fc8
 Description:  Kernel support for CDC NCM connections
 
 Package: kmod-usb-net-huawei-cdc-ncm
@@ -3057,10 +3057,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net, kmod
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1969
+Installed-Size: 1968
 Filename: kmod-usb-net-huawei-cdc-ncm_6.6.58-1_x86_64.ipk
-Size: 2718
-SHA256sum: bd2ed30380fcdaecce99e32f88ea2874ab2e08633e3f39463c5e65f3c3b47c52
+Size: 2720
+SHA256sum: 54ad5e369060470fa8a95309f590633703e5e67ec6934b533d558895ec98f794
 Description:  Kernel support for Huawei CDC NCM connections
 
 Package: kmod-usb-net-ipheth
@@ -3069,10 +3069,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4575
+Installed-Size: 4574
 Filename: kmod-usb-net-ipheth_6.6.58-1_x86_64.ipk
-Size: 5336
-SHA256sum: d4fbac159e8b85cb46408f4add484a5d28f4cc3b64aefb333b8ce3afd5b24175
+Size: 5338
+SHA256sum: 2bf7ac1a301c4e04e31cd486055915006960ece1fca9409859e65ee2ce945cc1
 Description:  Kernel support for Apple iPhone USB Ethernet driver
 
 Package: kmod-usb-net-qmi-wwan
@@ -3081,10 +3081,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net, kmod
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8926
+Installed-Size: 8927
 Filename: kmod-usb-net-qmi-wwan_6.6.58-1_x86_64.ipk
-Size: 9237
-SHA256sum: 6bb19074ad6be009fa6ec1390aed3b205b4aebcf2c3b9dc08f99a4e5bb13e475
+Size: 9251
+SHA256sum: 941af4a364003bdb4863e50e8e676cefd13d5d5a258df0d56d8abe9f23ef8bd8
 Description:  QMI WWAN driver for Qualcomm MSM based 3G and LTE modems
 
 Package: kmod-usb-net-rndis
@@ -3096,7 +3096,7 @@ Architecture: x86_64
 Installed-Size: 4682
 Filename: kmod-usb-net-rndis_6.6.58-1_x86_64.ipk
 Size: 5394
-SHA256sum: a91cc4baabbdd12db97a015baf83f7d5145817edd276bf9eca5375165501a796
+SHA256sum: c3253924fa9c20446c415877053d991cfeb564cb2a8fd359bc2696537ae00999
 Description:  Kernel support for RNDIS connections
 
 Package: kmod-usb-net-rtl8150
@@ -3105,10 +3105,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-net
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5875
+Installed-Size: 5876
 Filename: kmod-usb-net-rtl8150_6.6.58-1_x86_64.ipk
-Size: 6625
-SHA256sum: 2375746a5347ceb6dfae34384751144f7c3bdb3e2d1ec5fc73ae61038db5d9cc
+Size: 6626
+SHA256sum: 8fb2539d485212d06b98d824cadcb6e0b8d77554bc0eca695557b37e74f6ea22
 Description:  Kernel module for USB-to-Ethernet Realtek 8150 convertors
 
 Package: kmod-usb-net-rtl8152-vendor
@@ -3119,8 +3119,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 117273
 Filename: kmod-usb-net-rtl8152-vendor_6.6.58+2.18.1.20240701-x86-1_x86_64.ipk
-Size: 111467
-SHA256sum: dc917cf3929ae7708fdb9b02acd7a594aff47feecf5b65dabe51d29bc34aa9da
+Size: 111511
+SHA256sum: a8edc5d162b1f20633ea1290182be762715d5f7fa29ed34b2e5ae2e18056003c
 Description:  Kernel module for Realtek RTL8152 USB Ethernet chipsets
 
 Package: kmod-usb-net
@@ -3129,10 +3129,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-mii, kmod-usb
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 13905
+Installed-Size: 13906
 Filename: kmod-usb-net_6.6.58-1_x86_64.ipk
-Size: 14655
-SHA256sum: ddbd71582057439e3ab892525da74675b8a02f525bad52f66a78af86408ee7af
+Size: 14661
+SHA256sum: 47efab43e525808c7411b11849fefa401e03c51a4bf79ab0a77b2785bf2da0ac
 Description:  Kernel modules for USB-to-Ethernet convertors
 
 Package: kmod-usb-ohci-pci
@@ -3141,10 +3141,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-ohci, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 228
+Installed-Size: 229
 Filename: kmod-usb-ohci-pci_6.6.58-1_x86_64.ipk
-Size: 964
-SHA256sum: b927d59d1f14a307a778ac5c433a5c338cdea5eca5ebc6d4ac96e82ddb16ac60
+Size: 971
+SHA256sum: 3ee28a6c5fa886f648976f76c80dad04c4594d09eec3df5dba6e6dd145f7a10e
 Description:  Kernel support for PCI OHCI controllers
 
 Package: kmod-usb-ohci
@@ -3156,7 +3156,7 @@ Architecture: x86_64
 Installed-Size: 243
 Filename: kmod-usb-ohci_6.6.58-1_x86_64.ipk
 Size: 979
-SHA256sum: 6b79122345017f0f8ab1eab7c3093006b067ab87ec7b6c694dbb111ec483a096
+SHA256sum: 3a735fc674dc13aeedd50e17044e5ac78c164f4e6db10d020e4fc1985653b514
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-printer
@@ -3167,8 +3167,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 7252
 Filename: kmod-usb-printer_6.6.58-1_x86_64.ipk
-Size: 8033
-SHA256sum: b7ae277d289147a359561b11869361f322f9ca3f220a3c9d8c62832632a7140f
+Size: 8029
+SHA256sum: b6e53b66dcb6a17dbd3388be89ccfe11e969657511cbef255206b882c850ea7b
 Description:  Kernel support for USB printers
 
 Package: kmod-usb-roles
@@ -3177,10 +3177,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3306
+Installed-Size: 3304
 Filename: kmod-usb-roles_6.6.58-1_x86_64.ipk
-Size: 4042
-SHA256sum: 99e900ecbf28483f8844a0066058741d141b21144169e3189550d541ae756d84
+Size: 4039
+SHA256sum: e3ff544afbe8df4a8fe08a35ad97c0edbbbb1d1f2f53e2faa1594f4fa86dd70b
 Description:  Support for USB Role Switch
 
 Package: kmod-usb-serial-option
@@ -3191,8 +3191,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 6818
 Filename: kmod-usb-serial-option_6.6.58-1_x86_64.ipk
-Size: 6661
-SHA256sum: 42a0a4408d0c9c84ac9ed7b52b59a2a56afbc37c3d6ba6c6ed2e5cc0d08e370a
+Size: 6652
+SHA256sum: b9aea8f581b006263e42cd8fa961b6b0790646ba5e522444547fe205736414e3
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-wwan
@@ -3204,7 +3204,7 @@ Architecture: x86_64
 Installed-Size: 4629
 Filename: kmod-usb-serial-wwan_6.6.58-1_x86_64.ipk
 Size: 5389
-SHA256sum: 561cdcff2c247426d0cde8e5772873566cc5a18b981c11e09baa35359aa41e30
+SHA256sum: ce08f9ed36bd0fda2f96d21d490b67f64075294415629456f8e36b4bef32295e
 Description:  Kernel support for USB GSM and CDMA modems
 
 Package: kmod-usb-serial
@@ -3213,10 +3213,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 14259
+Installed-Size: 14261
 Filename: kmod-usb-serial_6.6.58-1_x86_64.ipk
-Size: 14978
-SHA256sum: dc3c3f4c5a404c4933e825c4a2601b2caf570a41295ee5aa7fdca2c4eb015a99
+Size: 14971
+SHA256sum: e0046924c4c1dbb3cf5131d9441acf62b74c4dd1bf6b0278ad0be49a795410a5
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage-extras
@@ -3227,8 +3227,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 30137
 Filename: kmod-usb-storage-extras_6.6.58-1_x86_64.ipk
-Size: 30940
-SHA256sum: 386bb12f68c602d433f89d66b99ed3e991523e7ccf54e25c4af61f18dd228efe
+Size: 30936
+SHA256sum: 887c22cc96a44f03585f75a897308013674b845a5b3738c12cbdf6f33a455d9b
 Description:  Say Y here if you want to have some more drivers,
  such as for SmartMedia card readers
 
@@ -3238,10 +3238,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-storage
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8516
+Installed-Size: 8518
 Filename: kmod-usb-storage-uas_6.6.58-1_x86_64.ipk
-Size: 9341
-SHA256sum: 703c0bcd8fc10fc9b8caab91a09c158b591978c7bf45a1cee4e1d8bafb7c1c57
+Size: 9351
+SHA256sum: 8a9df1788f1bc1affc1dac14f4e48b0a52486e47a48992cb95905d6673ef9c09
 Description:  Say Y here if you want to include support for
  USB Attached SCSI (UAS/UASP), a higher
  performance protocol available on many
@@ -3253,10 +3253,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-scsi-core, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 225
+Installed-Size: 226
 Filename: kmod-usb-storage_6.6.58-1_x86_64.ipk
-Size: 973
-SHA256sum: 197f87794975efc5824593d1601c03e947b9830daaf995cd91c64946677561b9
+Size: 971
+SHA256sum: 00335fc0fea8b3ffab8b8c3c7cdcd5c6984824255665429b012d18d1ca9874ac
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb-uhci
@@ -3267,8 +3267,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 228
 Filename: kmod-usb-uhci_6.6.58-1_x86_64.ipk
-Size: 962
-SHA256sum: 2269b4bc35f4bc98888bfc63ecd3061f31e576849bb0cad9756d91de7e16d08a
+Size: 961
+SHA256sum: 1a7be8b685f6ee1554eec90766c6d925d2a6d6b8586ec6d9558fd6567554a7b4
 Description:  Kernel support for USB UHCI controllers
 
 Package: kmod-usb-wdm
@@ -3277,10 +3277,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7533
+Installed-Size: 7530
 Filename: kmod-usb-wdm_6.6.58-1_x86_64.ipk
-Size: 8329
-SHA256sum: ac67a6d43df617601d41d54039d7c88f171f59cac9188e95168cb85b35b88ec8
+Size: 8330
+SHA256sum: da99aaa3216948102e0dd8e70cd0bfc906679f7e3598c4a1fa003df4fed43346
 Description:  USB Wireless Device Management support
 
 Package: kmod-usb-xhci-hcd
@@ -3291,8 +3291,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 229
 Filename: kmod-usb-xhci-hcd_6.6.58-1_x86_64.ipk
-Size: 1010
-SHA256sum: a9cb29b842140bf3765c780626a4637cfc18f4e1a126d3b11781a72015e7a379
+Size: 1008
+SHA256sum: 60bb531c4f6f9802d192bfaf39853dab1db7628fc4735a7e3ca9af5cb3f28419
 Description:  The eXtensible Host Controller Interface (xHCI) is standard for USB 3.0
  "SuperSpeed" host controller hardware.
 
@@ -3302,10 +3302,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb2, kmod-us
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 227
+Installed-Size: 228
 Filename: kmod-usb2-pci_6.6.58-1_x86_64.ipk
-Size: 973
-SHA256sum: f36a240ef24f3a2d2a13d4b9b72ebd587869952b0fc68aa002a7be9f0bf15bb9
+Size: 974
+SHA256sum: e15999df275c97ca52dc7a387cd8280f1fc7e2bb28afb2ea87be64d1faae4702
 Description:  Kernel support for PCI USB2 (EHCI) controllers
 
 Package: kmod-usb2
@@ -3314,10 +3314,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-ehci, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6106
+Installed-Size: 6104
 Filename: kmod-usb2_6.6.58-1_x86_64.ipk
-Size: 6855
-SHA256sum: 22abd8eb54b8d3d60bcf33af9ce91c229345bc65b933bbe2fd9facaf1634caef
+Size: 6841
+SHA256sum: 7b4387c4cbb7c008f56e590ef427198bc6ed0ede96fb446cd2d4bda297c54540
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-usb3
@@ -3326,10 +3326,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-usb-xhci-hcd,
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 4331
+Installed-Size: 4333
 Filename: kmod-usb3_6.6.58-1_x86_64.ipk
-Size: 5059
-SHA256sum: 0c245a87eb7fc34b1e4feb1f94e7bfec18236006b7a33707926d8d7641d27115
+Size: 5055
+SHA256sum: ff69a5e77c85ce0ed58479fc119fe7777f1c6b7c1ea06fc8c97499f7e8a78daf
 Description:  Kernel support for USB3 (XHCI) controllers
 
 Package: kmod-via-velocity
@@ -3340,8 +3340,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 16095
 Filename: kmod-via-velocity_6.6.58-1_x86_64.ipk
-Size: 16861
-SHA256sum: f3a2bd64ffa243e6e75b31033b7e8fa606be689468d6e9412c839854c2dead83
+Size: 16864
+SHA256sum: 0150a73b4c2beb084dc735a57c40454bcdba1cf33d28458665e918c4c504303c
 Description:  Kernel modules for VIA Velocity Gigabit Ethernet chipsets
 
 Package: kmod-vmxnet3
@@ -3350,10 +3350,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 181
+Installed-Size: 182
 Filename: kmod-vmxnet3_6.6.58-1_x86_64.ipk
-Size: 920
-SHA256sum: 9bf62d10643c196dfe76d956f1c1c0540be0920c4cd9deddcbc044f383038587
+Size: 915
+SHA256sum: 13a380d5d3ac730a3223bfef2af45e3a3b14ed2ab6409c0e6b1e6fe9073751c6
 Description:  Kernel modules for VMware VMXNET3 ethernet adapters.
 
 Package: kmod-wireguard
@@ -3362,10 +3362,10 @@ Depends: kernel (=6.6.58-1-2dd4c5a7ec706b51f791b58e46e50ba4), kmod-crypto-lib-ch
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 33538
+Installed-Size: 33539
 Filename: kmod-wireguard_6.6.58-1_x86_64.ipk
-Size: 34587
-SHA256sum: b36fce23b59292f652add0d21d1078e1a59e1a65233a9238b8e033d644e4d43b
+Size: 34597
+SHA256sum: d5515740336baa089d8153ce3913b30609373ed85d24dddcd285a93a333cc480
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -3385,8 +3385,8 @@ Essential: yes
 Architecture: x86_64
 Installed-Size: 7733
 Filename: libatomic1_11.3.0-4_x86_64.ipk
-Size: 8539
-SHA256sum: 461e96d743c0438b4de4e5345d1b2f717a592b0edba27798b384ac356f8ea6c3
+Size: 8538
+SHA256sum: 6be4a68989689a7aa794e7da0c1e9e2684ccb81af3d3ee6d059373aff8f0b510
 Description:  Atomic support library
 
 Package: libgcc1
@@ -3398,10 +3398,10 @@ ABIVersion: 1
 Status: unknown hold not-installed
 Essential: yes
 Architecture: x86_64
-Installed-Size: 42871
+Installed-Size: 42872
 Filename: libgcc1_11.3.0-4_x86_64.ipk
-Size: 43706
-SHA256sum: ae4a270c72e5ae8e9766b6a984dc2d03c6d1931dc19509c7dd89704e31413344
+Size: 43692
+SHA256sum: ec08c9df3ea35e26d412b5ec042d5404e15756177da59d63c4630e5243042756
 Description:  GCC support library
 
 Package: libip4tc2
@@ -3413,10 +3413,10 @@ Section: libs
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 25623
+Installed-Size: 25624
 Filename: libip4tc2_1.8.7-2_x86_64.ipk
-Size: 26336
-SHA256sum: 3781d2a9297c52d13742ae83370d6f87f0cad36685ce9117a6669c0596975f10
+Size: 26340
+SHA256sum: 516e9fe8b392377f51f02e89134e3f3d8e88ab8b826460eeedb38c09208b2181
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc2
@@ -3428,10 +3428,10 @@ Section: libs
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 24711
+Installed-Size: 24713
 Filename: libip6tc2_1.8.7-2_x86_64.ipk
-Size: 25430
-SHA256sum: 763d4a11f6a2bfffee6929152e35fe4d2f5e16cb426d2a744bc7fd92693b6670
+Size: 25429
+SHA256sum: bf308fe174704acff3c027c8f08a251943ba9c4a77165a6ac6ea298576d22bcf
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiwinfo-data
@@ -3442,8 +3442,8 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 3092
 Filename: libiwinfo-data_2024-03-08-8ffb8bfd-1_x86_64.ipk
-Size: 3813
-SHA256sum: db12e5f6117ff7ecc19e8f460076dc9a13e2e1b1a0ef8b0b8609d7fea417c324
+Size: 3809
+SHA256sum: cee500052967d898e65999b62f8728cbb8f71df3e19b381639595aea853a7720
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
@@ -3454,8 +3454,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 7129
 Filename: libiwinfo-lua_2024-03-08-8ffb8bfd-1_x86_64.ipk
-Size: 7905
-SHA256sum: 6b3df9f9d257d7bca4de34dbce280292f39c3f26070c88129bddaa010192b7a6
+Size: 7900
+SHA256sum: 58bec877971d9c45c4c0ae5e5fdbf1f6c0013526c70d48003626a3e669c8a6e2
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -3467,10 +3467,10 @@ License: GPL-2.0
 Section: libs
 ABIVersion: 20230701
 Architecture: x86_64
-Installed-Size: 30332
+Installed-Size: 30333
 Filename: libiwinfo20230701_2024-03-08-8ffb8bfd-1_x86_64.ipk
-Size: 31178
-SHA256sum: 3e4ec32939d00eac46b4079e786cad351cd06a9fc98e11bafaf6365c7669d438
+Size: 31180
+SHA256sum: bb63fa667f0e89ca02bee28ba0df1a0cd3090cb6d14d808b2a1d47514192027c
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -3484,8 +3484,8 @@ Essential: yes
 Architecture: x86_64
 Installed-Size: 117
 Filename: libpthread_1.2.4-4_x86_64.ipk
-Size: 873
-SHA256sum: d4942839ca2a10e63c726fef8483c39af4f444eb8a324987d9e2b72b60978581
+Size: 876
+SHA256sum: 9f65d9c70616de231cc7fe9ad364585607dccdc2da29a6d6e632aafc1a4f17ba
 Description:  POSIX thread library
 
 Package: librt
@@ -3499,7 +3499,7 @@ Architecture: x86_64
 Installed-Size: 117
 Filename: librt_1.2.4-4_x86_64.ipk
 Size: 884
-SHA256sum: d571db15e99eea406150b29c0089128abe68f10d4dac1e2fb2152e220768dd4b
+SHA256sum: 58e2e97a9acd6c19d7bde986112d5914b184fb43fda21f766dc3d1fa8eab4efb
 Description:  POSIX.1b RealTime extension library
 
 Package: libstdcpp6
@@ -3511,10 +3511,10 @@ ABIVersion: 6
 Status: unknown hold not-installed
 Essential: yes
 Architecture: x86_64
-Installed-Size: 715650
+Installed-Size: 715653
 Filename: libstdcpp6_11.3.0-4_x86_64.ipk
-Size: 714317
-SHA256sum: b102ac4c2516251954a468147224e14b22ffb05fd06a5ab1528a96e71427eccc
+Size: 714331
+SHA256sum: 45f0a7546a4efcf0b818e2de708d1f07b681008598e98698a9457c74beaf23ce
 Description:  GNU Standard C++ Library v3
 
 Package: libxtables12
@@ -3526,10 +3526,10 @@ Section: libs
 ABIVersion: 12
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 56266
+Installed-Size: 56267
 Filename: libxtables12_1.8.7-2_x86_64.ipk
-Size: 57036
-SHA256sum: 21e78d29a1967b7dd62ee01b1d4390888b09d3d5afe8209399f39607d418c193
+Size: 57037
+SHA256sum: bcac6475501e52d60a884d507d091d6a5c44458f7f54687bb4440c4325d12be8
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mtd
@@ -3538,10 +3538,10 @@ Depends: libc, libubox20220927
 License: GPL-2.0+
 Section: utils
 Architecture: x86_64
-Installed-Size: 13238
+Installed-Size: 13239
 Filename: mtd_26_x86_64.ipk
-Size: 13988
-SHA256sum: 4bf6cd7cfcb7eb1001d819879b64ed922e50714759cb4ac10fd4baf54195db0f
+Size: 13986
+SHA256sum: 16dbf91ebf176b51eb56ddc4e088318009e0299a40990cd7ee19ccd94ca508c4
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -3551,10 +3551,10 @@ Depends: libc, libubox20220927, kmod-usb-net, kmod-usb-net-cdc-mbim, wwan
 License: GPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 13808
+Installed-Size: 13807
 Filename: umbim_2022-08-13-146bc77c-24_x86_64.ipk
-Size: 14626
-SHA256sum: 11edc9bdf94f4ce5a18b066f6cf00d4977a04e6b37adce47b3cdf81f0e15f179
+Size: 14628
+SHA256sum: 1e93b6af304e69f5a14865b874dd935b505f3b051ad01ca8f7f62886708e7d39
 Description:  umbim is a command line tool for controlling mobile broadband modems using
  the MBIM-protocol.
 
@@ -3564,10 +3564,10 @@ Depends: libc, libubox20220927, libblobmsg-json20220927, kmod-usb-net, kmod-usb-
 License: GPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 41863
+Installed-Size: 41862
 Filename: uqmi_2022-05-04-56cb2d40-1_x86_64.ipk
-Size: 42749
-SHA256sum: 150fd4e54250c1b9b86bd789b0be7d991cbeb786d0dd03f779c264123181a351
+Size: 42738
+SHA256sum: 5c9a8ba2707d62680895256953fc1ae58e4534e34216d323ff9653339e32f8a6
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
