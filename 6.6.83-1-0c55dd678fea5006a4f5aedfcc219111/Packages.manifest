@@ -60,7 +60,7 @@ SHA256sum: f89798726d83fb970ccf42ff2f2d1190e378e442d68ff521cc0072ff6d18d5c7
 Description:  AR9271/AR7010 firmware
 
 Package: base-files
-Version: 1-25.3.14
+Version: 1-25.3.15
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
@@ -68,10 +68,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1741939328
 Architecture: x86_64
-Installed-Size: 24826315
-Filename: base-files_1-25.3.14_x86_64.ipk
-Size: 24505933
-SHA256sum: b65485ac9960cbbaa998aa2999eb1ed601f3d632b31c3accdfd33ffaa388557c
+Installed-Size: 24838971
+Filename: base-files_1-25.3.15_x86_64.ipk
+Size: 24516693
+SHA256sum: f82adba4f51462e8ae7db8292d1f12ec281e80f3ca33970191e03e8ffd3e01be
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -6711,10 +6711,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1741939328
 Architecture: x86_64
-Installed-Size: 48054
+Installed-Size: 48057
 Filename: kmod-ikconfig_6.6.83-1_x86_64.ipk
-Size: 48910
-SHA256sum: 98a5d2caf1a5649a03b47e09e7cd6ae4880e8f56811fc7f588dda084d4fc29e6
+Size: 48911
+SHA256sum: 53e614c25134613900f630c65a5cd65080cf755b6361ea577291f53661682104
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -7172,13 +7172,13 @@ SourceName: kmod-ipt-account
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 7065
 Filename: kmod-ipt-account_6.6.83+3.27-1_x86_64.ipk
-Size: 7899
-SHA256sum: 57328d8403854b31fc6051ff4ada50c5be12d800a269400f02f243d635f9b334
+Size: 7902
+SHA256sum: 9977e5181a67c8fb87e3c4111757a652930dba44d7d8ba313894526afdef2c6d
 Description:  ACCOUNT netfilter module
 
 Package: kmod-ipt-asn
@@ -7189,13 +7189,13 @@ SourceName: kmod-ipt-asn
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2685
+Installed-Size: 2684
 Filename: kmod-ipt-asn_6.6.83+3.27-1_x86_64.ipk
-Size: 3481
-SHA256sum: 8edeadab56fa4624bb624f1e25ede1067878373f68416ace11cfa22ca7830626
+Size: 3475
+SHA256sum: 6306f9daabb99e278bc57c89d784c7ebb4b313eab83f44101dcc2044251d0530
 Description:  asn netfilter module
 
 Package: kmod-ipt-chaos
@@ -7206,13 +7206,13 @@ SourceName: kmod-ipt-chaos
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2312
+Installed-Size: 2311
 Filename: kmod-ipt-chaos_6.6.83+3.27-1_x86_64.ipk
 Size: 3119
-SHA256sum: c5d49c8d522c0e23191838795e7d1e1a514b6e583b7fca48e394dca2f7090652
+SHA256sum: cfc75c8a8394cf1c3d9c45a2f69325dd860a712186c98550b3e92e2c243ef61d
 Description:  CHAOS netfilter module
 
 Package: kmod-ipt-checksum
@@ -7288,13 +7288,13 @@ SourceName: kmod-ipt-compat-xtables
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 910
 Filename: kmod-ipt-compat-xtables_6.6.83+3.27-1_x86_64.ipk
-Size: 1738
-SHA256sum: bad2abcc72475b3dd709528a7d968035c8dec708cdaac1b4770d1da1d643d8dc
+Size: 1740
+SHA256sum: 3a73009940377445a1ebb70db900e6beebf718cac7c77583a53b7a14ea37d0a7
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-condition
@@ -7305,13 +7305,13 @@ SourceName: kmod-ipt-condition
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 2654
 Filename: kmod-ipt-condition_6.6.83+3.27-1_x86_64.ipk
-Size: 3447
-SHA256sum: 6b72ba6d536b70dc5ba50b89c7e963b6192f443c146090b3cf5ea166541f5720
+Size: 3443
+SHA256sum: 9f728adc2713978479a8b37d4f14b0592a5cb84b8818c1a86bf65297ae6eb0f3
 Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -7421,13 +7421,13 @@ SourceName: kmod-ipt-delude
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 2239
 Filename: kmod-ipt-delude_6.6.83+3.27-1_x86_64.ipk
-Size: 3035
-SHA256sum: f6e07ebe632e92c3a17e2d35d1f07f22a2a6454de97db89963fe3c2da02fc477
+Size: 3037
+SHA256sum: 5c09df3c0403e30000b18f915e060aabc21ee10b2921ec288395775a7269d393
 Description:  DELUDE netfilter module
 
 Package: kmod-ipt-dhcpmac
@@ -7438,13 +7438,13 @@ SourceName: kmod-ipt-dhcpmac
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 1858
 Filename: kmod-ipt-dhcpmac_6.6.83+3.27-1_x86_64.ipk
-Size: 2660
-SHA256sum: 96fd7719c5510d748c50f6b2b4d9c57efeeef25c9c15cf2a83115280ebde1b8b
+Size: 2659
+SHA256sum: 461cca0538c6bc4b3a1086bdd04a7ad577d5cc096330a285b50d210f5cd28a28
 Description:  DHCPMAC netfilter module
 
 Package: kmod-ipt-dnetmap
@@ -7455,13 +7455,13 @@ SourceName: kmod-ipt-dnetmap
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 6833
+Installed-Size: 6832
 Filename: kmod-ipt-dnetmap_6.6.83+3.27-1_x86_64.ipk
-Size: 7674
-SHA256sum: cfe808e1ca2728d1c1dfdf8fe5391d6bc0f5babcb27430caa3c6abb28b833d3c
+Size: 7679
+SHA256sum: ae2f037e50c5a001b2870dfe36f96aa3df1702966e86a5533c6a64892746312f
 Description:  DNETMAP netfilter module
 
 Package: kmod-ipt-extra
@@ -7527,13 +7527,13 @@ SourceName: kmod-ipt-fuzzy
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 1432
+Installed-Size: 1431
 Filename: kmod-ipt-fuzzy_6.6.83+3.27-1_x86_64.ipk
-Size: 2217
-SHA256sum: 5d2a59268dbec2654a70081755233e60aa48203a493f11685bdf5adbaf4e888b
+Size: 2214
+SHA256sum: 73dee727192e9dba4ec1de47cbe5751b6754e1560122abd3a8c7cb27f43806cb
 Description:  fuzzy netfilter module
 
 Package: kmod-ipt-geoip
@@ -7544,13 +7544,13 @@ SourceName: kmod-ipt-geoip
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2715
+Installed-Size: 2714
 Filename: kmod-ipt-geoip_6.6.83+3.27-1_x86_64.ipk
-Size: 3500
-SHA256sum: d77625cff536e6fd369c43848e3520e0b63729a56e09deaa01438fd597e76c96
+Size: 3509
+SHA256sum: d988e2e2a2204b51facc8ad0090845323d29980bf6f62601def78188724addf2
 Description:  geoip netfilter module
 
 Package: kmod-ipt-hashlimit
@@ -7576,13 +7576,13 @@ SourceName: kmod-ipt-iface
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 1374
 Filename: kmod-ipt-iface_6.6.83+3.27-1_x86_64.ipk
-Size: 2160
-SHA256sum: 637b8efdae806b250f44b23b61b795f26e35e248d226bb663e8d42701ddf1d31
+Size: 2159
+SHA256sum: f69efba45836e1b0a39eb9aa9b69c036356deb6ba00b38b87a476e84f9e49486
 Description:  iface netfilter module
 
 Package: kmod-ipt-ipmark
@@ -7593,13 +7593,13 @@ SourceName: kmod-ipt-ipmark
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 1234
 Filename: kmod-ipt-ipmark_6.6.83+3.27-1_x86_64.ipk
-Size: 2058
-SHA256sum: bf2eeff7512d93c0121891bae23fe0ba7ca538624ee3dcfc1733326bfaa0d048
+Size: 2061
+SHA256sum: 35c0a8803ba3c1582495e2ffb66e15d7fbf34bd0c144244eeb0d6b57d5eb8980
 Description:  IPMARK netfilter module
 
 Package: kmod-ipt-ipopt
@@ -7637,13 +7637,13 @@ SourceName: kmod-ipt-ipp2p
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 6866
+Installed-Size: 6867
 Filename: kmod-ipt-ipp2p_6.6.83+3.27-1_x86_64.ipk
-Size: 7694
-SHA256sum: ccbf255b1e36f4467c590a93961a90eae5fc74bf2104679fe9fce496090ea90d
+Size: 7698
+SHA256sum: 466d0ac44cd2f53805136d1c8c5eeaf32e62630faa7583d5e416e5622d31b254
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-iprange
@@ -7705,13 +7705,13 @@ SourceName: kmod-ipt-ipv4options
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 1100
+Installed-Size: 1099
 Filename: kmod-ipt-ipv4options_6.6.83+3.27-1_x86_64.ipk
-Size: 1914
-SHA256sum: e599424d3f86477d0cc69fffc6ce84526d7c34ae747a897adaf343373c7b9443
+Size: 1916
+SHA256sum: 6b30a39fe4f8528bed9efb3c4e2776da65662880dc3c153389fbcc61d0979119
 Description:  ipv4options netfilter module
 
 Package: kmod-ipt-led
@@ -7737,13 +7737,13 @@ SourceName: kmod-ipt-length2
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2195
+Installed-Size: 2194
 Filename: kmod-ipt-length2_6.6.83+3.27-1_x86_64.ipk
-Size: 2989
-SHA256sum: 055b738118fb1362a50d6b6b9f3e27aac0af91f5db3993c5d3c11bdfd0e63b54
+Size: 2987
+SHA256sum: a36b9c36867bac2911ef1ecb85a8fecadcb11cedc921bc2fa6cf45b5072d85c3
 Description:  length2 netfilter module
 
 Package: kmod-ipt-logmark
@@ -7754,13 +7754,13 @@ SourceName: kmod-ipt-logmark
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 1936
+Installed-Size: 1935
 Filename: kmod-ipt-logmark_6.6.83+3.27-1_x86_64.ipk
-Size: 2736
-SHA256sum: 24d5fe0de8ee5ee8d2c65cc95f7113f9e588ab6b8b03eb8122459b5da72d6350
+Size: 2735
+SHA256sum: e049825505349fe217791043d756c4eb9857f04eda97fac395da41a489ce3d67
 Description:  LOGMARK netfilter module
 
 Package: kmod-ipt-lscan
@@ -7771,13 +7771,13 @@ SourceName: kmod-ipt-lscan
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2423
+Installed-Size: 2424
 Filename: kmod-ipt-lscan_6.6.83+3.27-1_x86_64.ipk
-Size: 3207
-SHA256sum: 425e2a048d3ec054df5d0efbcf975a08e6615c0b7a48c0eeea25e42b7adf8446
+Size: 3211
+SHA256sum: 043cc7feb2ecf7329b6a7d8fb35ec43b18e98fff0135e693b1457568bfcd376a
 Description:  lscan netfilter module
 
 Package: kmod-ipt-lua
@@ -7788,13 +7788,13 @@ SourceName: kmod-ipt-lua
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 73686
 Filename: kmod-ipt-lua_6.6.83+3.27-1_x86_64.ipk
-Size: 74362
-SHA256sum: 07e093a7e591e2024af9903ca9080c27e53e136da0c801883197567021509870
+Size: 74371
+SHA256sum: 47be8964b315793cd7ff63f764b2028d8387748032221aec70a9653929afc9bf
 Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -7855,13 +7855,13 @@ SourceName: kmod-ipt-nathelper-rtsp
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 9023
+Installed-Size: 9022
 Filename: kmod-ipt-nathelper-rtsp_6.6.83+3.27-1_x86_64.ipk
 Size: 9851
-SHA256sum: 26729bc4c519432aa811f5fa687fca278b2527d44fc972e0443825bbdb18b89f
+SHA256sum: e7dbae6a049660b7f35727bad02219031bb1ab369a9fb695ae1b2a556ed49d2e
 Description:  RTSP Conntrack and NAT netfilter module
 
 Package: kmod-ipt-nflog
@@ -7936,13 +7936,13 @@ SourceName: kmod-ipt-proto
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 1907
 Filename: kmod-ipt-proto_6.6.83+3.27-1_x86_64.ipk
-Size: 2688
-SHA256sum: 44a6437bed7a481d32848a3f55838e156aa42c34725d40eaf1a3486df5e924c4
+Size: 2685
+SHA256sum: beddd24ec7960e0aef2e257ad358930a78deabb3ada1ff40ca296904fe285eee
 Description:  PROTO netfilter module
 
 Package: kmod-ipt-psd
@@ -7953,13 +7953,13 @@ SourceName: kmod-ipt-psd
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 3094
 Filename: kmod-ipt-psd_6.6.83+3.27-1_x86_64.ipk
 Size: 3884
-SHA256sum: 4db22ba7ecd4bc68ee36a294e9cad249a1f67051a43da624c38e579414674e48
+SHA256sum: 9c996cd661a80555dd02cd0fb5dff35dbdfe7d6296ff73f03283d6aefa5b6e67
 Description:  psd netfilter module
 
 Package: kmod-ipt-quota2
@@ -7970,13 +7970,13 @@ SourceName: kmod-ipt-quota2
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 3230
+Installed-Size: 3228
 Filename: kmod-ipt-quota2_6.6.83+3.27-1_x86_64.ipk
-Size: 4019
-SHA256sum: 6d64a938a6116739634324ec700b0db3f2ded6e1e8f5e7e7b97e7b14270fb839
+Size: 4023
+SHA256sum: 70908801a2700c0061e0a0e9745e4b1f6118d1f5ef6fd66d7cc86ea5c6e18389
 Description:  quota2 netfilter module
 
 Package: kmod-ipt-raw6
@@ -8065,13 +8065,13 @@ SourceName: kmod-ipt-sysrq
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 3480
 Filename: kmod-ipt-sysrq_6.6.83+3.27-1_x86_64.ipk
-Size: 4301
-SHA256sum: 3abf95f9b00f3897e4ec8530cfc172a82a1c1ddff147d764bb110a67f12d18e4
+Size: 4296
+SHA256sum: ae76dccb80e8c5f032ba9f4abb331e43af1bd1d3f7e90fb519793f2012e3a1f4
 Description:  SYSRQ netfilter module
 
 Package: kmod-ipt-tarpit
@@ -8082,13 +8082,13 @@ SourceName: kmod-ipt-tarpit
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 4000
 Filename: kmod-ipt-tarpit_6.6.83+3.27-1_x86_64.ipk
-Size: 4797
-SHA256sum: 8db380c299819772561af46235acae96538fa9e2c31e0ad6bfa6de72b966d41a
+Size: 4805
+SHA256sum: 644275b21ba1d639e0aae4c4b0abe469e035865a0b4a5a1de21cf7387d4958c3
 Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
@@ -8312,12 +8312,12 @@ SourceName: kmod-jool-netfilter
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Architecture: x86_64
-Installed-Size: 94593
+Installed-Size: 94595
 Filename: kmod-jool-netfilter_6.6.83+4.1.13-1_x86_64.ipk
-Size: 94619
-SHA256sum: 488d9e52441d7be76e5ffff7d3a4fa1ddc75426e7ab6699073f3990922fa78cb
+Size: 94642
+SHA256sum: e38ad2a728981352d1afdef2aa3399c956bf04e17c94fd345d1d135fc6ae4348
 Description:  Jool is an Open Source SIIT and NAT64 for Linux.
  
  This package provides the kernel module for Jool with netfilter API Only.
@@ -9158,13 +9158,13 @@ SourceName: kmod-macremapper
 License: GPL-2.0-only
 LicenseFiles: kernelmod/COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Carey Sonsino <careys@edgewaterwireless.com>
 Architecture: x86_64
-Installed-Size: 8340
+Installed-Size: 8341
 Filename: kmod-macremapper_6.6.83-x86-2_x86_64.ipk
-Size: 9181
-SHA256sum: cf2678f157dfa68ad4c40c6d8ff977085a03cc2ca8e3b909b5a04627751a7a75
+Size: 9186
+SHA256sum: 5ffac8fc20cb278e9a798f4e6294acfca4e6e82211c5e0b1a7f3c302b33c3752
 Description:  Linux kernel module for implementation the DCW filtering mechanism
 
 Package: kmod-macsec
@@ -9352,13 +9352,13 @@ SourceName: kmod-mdio-netlink
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Damien Mascord <tusker@tusker.org>
 Architecture: x86_64
-Installed-Size: 3322
+Installed-Size: 3323
 Filename: kmod-mdio-netlink_6.6.83+1.3.1-2_x86_64.ipk
-Size: 4114
-SHA256sum: 6ee5aa7e104348321be95c4d99783feb5e5fa3d3d17431962db678dbf10f4ef6
+Size: 4113
+SHA256sum: 2e23e65724baa48c07e283a9fbd412d6b2e432a0d496b974de809b096855f3a3
 Description:  mdio-netlink Linux MDIO netlink kernel module
 
 Package: kmod-mdio
@@ -10585,13 +10585,13 @@ Source: feeds/packages/admin/netatop
 SourceName: kmod-netatop
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: x86_64
-Installed-Size: 6768
+Installed-Size: 6767
 Filename: kmod-netatop_6.6.83+3.1-1_x86_64.ipk
-Size: 7855
-SHA256sum: 8c6d68fc3ff583daeea507f1950cb490edbb9fc92c5837d6524ac5b9ec3cd614
+Size: 7854
+SHA256sum: 447825c81b538f6274e4d9155707a7f975deb345b909d3e2eaf36bad0777e7d3
 Description:  The optional kernel module netatop can be loaded to gather statistics about
  the TCP and UDP packets that have been transmitted/received per process and
  per thread. As soon as atop discovers that this module is active, it shows
@@ -11631,6 +11631,20 @@ SHA256sum: bbd8772a5c09e869a220a24ad35972a2cd004c920bbbe90a5258270377bf7e4d
 Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
 
+Package: kmod-oaf
+Version: 6.6.83-1
+Depends: kernel (=6.6.83-1-0c55dd678fea5006a4f5aedfcc219111), kmod-ipt-conntrack
+Source: package/diy/OpenAppFilter/oaf
+SourceName: kmod-oaf
+Section: TT Apps
+SourceDateEpoch: 1741705297
+Architecture: x86_64
+Installed-Size: 118166
+Filename: kmod-oaf_6.6.83-1_x86_64.ipk
+Size: 118195
+SHA256sum: 55824a63b5e840073518f428bca22bd2d482cbbbfc2e29a53de324b76cc3f670
+Description:  open appfilter kernel module 
+
 Package: kmod-oid-registry
 Version: 6.6.83-1
 Depends: kernel (=6.6.83-1-0c55dd678fea5006a4f5aedfcc219111)
@@ -11653,13 +11667,13 @@ Source: feeds/packages/kernel/ovpn-dco
 SourceName: kmod-ovpn-dco-v2
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
 Architecture: x86_64
 Installed-Size: 24982
 Filename: kmod-ovpn-dco-v2_6.6.83+0.2.20240320-1_x86_64.ipk
-Size: 25846
-SHA256sum: a7088d9cd4dd8e9746707d940c3262344cec9bcdbc656e8f0ad9cafe25b0467d
+Size: 25850
+SHA256sum: 06beb4997052af77f80747c846f7f5466f4cbf84aa2dd249ab1053cdd081a6c6
 Description:  This module enhances the performance of the OpenVPN userspace software
  by offloading the data channel processing to kernelspace.
 
@@ -13908,13 +13922,13 @@ Source: feeds/packages/net/siit
 SourceName: kmod-siit
 License: GPL-2.0-or-later
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: x86_64
 Installed-Size: 5505
 Filename: kmod-siit_6.6.83+1.2-4_x86_64.ipk
-Size: 6302
-SHA256sum: d8c43ba2c2ad92b67c5f3c48aa9a1fded1d3eeb7e29d0b0ff555f8b38a90824e
+Size: 6301
+SHA256sum: a947657df248f09beeb4da94423afac4afe2488f792f31d150fdcfa731d87ac5
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis190
@@ -15801,13 +15815,13 @@ Source: feeds/packages/libs/dmx_usb_module
 SourceName: kmod-usb-serial-dmx_usb_module
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
 Architecture: x86_64
-Installed-Size: 4482
+Installed-Size: 4481
 Filename: kmod-usb-serial-dmx_usb_module_6.6.83+19.12.1-2_x86_64.ipk
-Size: 5378
-SHA256sum: a3f19f7946e7f12c28eb76afac5a7420964514710fcef8602357f67e82c46c26
+Size: 5374
+SHA256sum: 247c5469aa3a17f2e4eb8e9abcc9add54c954a6ff5c80e5be2bb09f46b4ba040
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -16104,13 +16118,13 @@ SourceName: kmod-usb-serial-xr_usb_serial_common
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 12061
+Installed-Size: 12059
 Filename: kmod-usb-serial-xr_usb_serial_common_6.6.83+2023-03-21-90ad5301-1_x86_64.ipk
-Size: 12913
-SHA256sum: c8f6687115e51bf4cb358e03a55d8adb6ca966f966148e0809c089d062117577
+Size: 12916
+SHA256sum: 472ab0ed2191f96e4ba0ca947734163309b121c4efd21603d75b26ccb9265330
 Description:  Support for Exar USB to RS-485/RS-422
 
 Package: kmod-usb-serial
@@ -16176,6 +16190,21 @@ Filename: kmod-usb-storage_6.6.83-1_x86_64.ipk
 Size: 969
 SHA256sum: 68813afcb6091599aeb9a502c152af4d6f385bd4e1592df3530bd42f739e4009
 Description:  Kernel support for USB Mass Storage devices
+
+Package: kmod-usb-test
+Version: 6.6.83-1
+Depends: kernel (=6.6.83-1-0c55dd678fea5006a4f5aedfcc219111), kmod-usb-core
+Source: package/kernel/linux
+SourceName: kmod-usb-test
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1741939328
+Architecture: x86_64
+Installed-Size: 16135
+Filename: kmod-usb-test_6.6.83-1_x86_64.ipk
+Size: 16849
+SHA256sum: 5e3d4f904db71fc62aa58a9dc965fc3e76856a837cd2b221bc35ce60948951bf
+Description:  Kernel support for testing USB Host Controller software
 
 Package: kmod-usb-uhci
 Version: 6.6.83-1
@@ -17090,13 +17119,13 @@ Depends: libc, iptables, libopenssl3, librt, libpthread, libstdcpp6, kmod-tun
 Source: feeds/packages/net/pgyvpn
 SourceName: pgyvpn
 Section: net
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Oray <developer@oray.com>
 Architecture: x86_64
-Installed-Size: 1145005
+Installed-Size: 1145012
 Filename: pgyvpn_3.1.0-1_x86_64.ipk
-Size: 1143467
-SHA256sum: 7698ad341c0467b9d9139e47c351d4d8dff094f4a2ac01b45488411f12957e87
+Size: 1143508
+SHA256sum: 9c5175f166e663fa2918aba5e89a5cff5cc2b07c274086bb421f4e3583e7a71c
 Description:  PuGongYing VPN is a product of Oray Company, support custom network, account security
  system, traffic monitoring, cloud application access, virtual serial port, etc.
 
@@ -17106,13 +17135,13 @@ Depends: libc, libpthread, librt
 Source: feeds/packages/net/phtunnel
 SourceName: phtunnel
 Section: net
-SourceDateEpoch: 1741939699
+SourceDateEpoch: 1741998631
 Maintainer: Oray <developer@oray.com>
 Architecture: x86_64
 Installed-Size: 97571
 Filename: phtunnel_1.0.0-1_x86_64.ipk
-Size: 98640
-SHA256sum: a5296021ef894cbc1221283f97bcd20bfde0dd00a823a22461d3236d4adece80
+Size: 98632
+SHA256sum: 094ddc770efa718d36c94d20a0800a61efefc7f3bfbb7ec68aa67dcd120a0fc2
 Description:  PHTunnel is the core component of HSK intranet penetration, which can easily implement high-performance
  reverse proxy applications, supports TCP, HTTP, HTTPS protocols, end-to-end TLS encrypted communication,
  black and white list anti-black verification, etc. Through PHTunnel, external network devices can easily
