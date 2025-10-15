@@ -54,15 +54,15 @@ SHA256sum: 2be54586499680e818d2c11dd5d26494fafdac11b3701ae80fbaf82561c79140
 Description:  AR9271/AR7010 firmware
 
 Package: base-files
-Version: 1-25.10.15
+Version: 1-25.10.16
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 22094168
-Filename: base-files_1-25.10.15_x86_64.ipk
-Size: 22070543
-SHA256sum: 4301fd298d0fd5efe7f38ccd6616eb4cc5d6fdc74e48f2ac9f984d1f2ca2fa6f
+Installed-Size: 22094169
+Filename: base-files_1-25.10.16_x86_64.ipk
+Size: 22070586
+SHA256sum: 9529a9252a5563015123c8d2f52b901dbe53685a3ee63cdfa629b6c2eee93eb5
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
