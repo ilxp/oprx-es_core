@@ -59,10 +59,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 22097662
+Installed-Size: 22097755
 Filename: base-files_1-25.10.18_x86_64.ipk
-Size: 22075755
-SHA256sum: 751e0fa53a7c20d9fa07d366b14cd9d5d71799fbadb75e1ce8733d36bfccaeb5
+Size: 22075927
+SHA256sum: a75fdb36dc65aec9998e73d9d6316764983025ea3d7b5365e99bc790654de2d9
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
