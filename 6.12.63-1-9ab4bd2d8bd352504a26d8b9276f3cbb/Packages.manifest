@@ -474,7 +474,7 @@ SHA256sum: 521e4e0e346b8efaf1db41cfe864ef4b1d4723bceb72710a6601d68b7a8e7833
 Description:  Linux ATM tool zeppelin.
 
 Package: base-files
-Version: 1-26.1.25
+Version: 1-26.1.26
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, busybox
 Source: package/base-files
 SourceName: base-files
@@ -482,10 +482,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1769266803
 Architecture: x86_64
-Installed-Size: 22708892
-Filename: base-files_1-26.1.25_x86_64.ipk
-Size: 22685821
-SHA256sum: 7365d902102744fa703958852c1809b205c7804266420a7db23ce3184942a767
+Installed-Size: 22713650
+Filename: base-files_1-26.1.26_x86_64.ipk
+Size: 22690133
+SHA256sum: 357e0aa93d732b2887886ac15c2baef30a3cf7cead020023e2449a4e7cf84a45
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
