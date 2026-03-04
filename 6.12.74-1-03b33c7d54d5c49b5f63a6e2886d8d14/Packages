@@ -379,15 +379,15 @@ SHA256sum: 77a78d6af3257e17e49b316a45ece0b4f70d59d8bce09376d79408a11585224d
 Description:  Linux ATM tool zeppelin.
 
 Package: base-files
-Version: 1-26.3.3
+Version: 1-26.3.4
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, busybox
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 23030983
-Filename: base-files_1-26.3.3_x86_64.ipk
-Size: 23007534
-SHA256sum: f936e012327ded2df4a6d240f4f196c5b3fdddde806eaeeb7b3601870f1d120b
+Installed-Size: 23027004
+Filename: base-files_1-26.3.4_x86_64.ipk
+Size: 23002886
+SHA256sum: 6f085f10dfa06a680594fb4f9984e1a280bdbb97cefe214868cdb526dbc011b9
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -9970,10 +9970,10 @@ Version: 6.12.74-1
 Depends: kernel (=6.12.74-1-03b33c7d54d5c49b5f63a6e2886d8d14), kmod-ipt-conntrack
 Section: TT Apps
 Architecture: x86_64
-Installed-Size: 162521
+Installed-Size: 162531
 Filename: kmod-oaf_6.12.74-1_x86_64.ipk
-Size: 161587
-SHA256sum: 660213c40e379768de79ac730809688d21f88f26027e463822978a8f6fe918b2
+Size: 161457
+SHA256sum: 6d7b4b614cd093f776439dc90138a7807758ed25431c2ce0ac7bd32b4dacf555
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -15769,10 +15769,10 @@ Depends: libc, libubox20240329, libblobmsg-json20240329, kmod-usb-net, kmod-usb-
 License: GPL-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 52709
+Installed-Size: 53364
 Filename: uqmi_2025-07-30-7914da43-2_x86_64.ipk
-Size: 53563
-SHA256sum: 82cdc349e36057b41429438c4f4cd291e0c04db9cf0116eba18a9867c132adcf
+Size: 54187
+SHA256sum: 0772f715ff1f5179cab36d08f16bf7ba50698a86d9730e6b86498fb63afa5b8d
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
