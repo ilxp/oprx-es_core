@@ -459,7 +459,7 @@ SHA256sum: 8b946f651331e9e5f47f17ed7118470d154d0c1a8d88a1b60e738a56122b6723
 Description:  Linux ATM tool zeppelin.
 
 Package: base-files
-Version: 1-26.5.17
+Version: 1-26.5.18
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, busybox
 Source: package/base-files
 SourceName: base-files
@@ -467,10 +467,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1779005296
 Architecture: x86_64
-Installed-Size: 23403785
-Filename: base-files_1-26.5.17_x86_64.ipk
-Size: 23382446
-SHA256sum: 920edecba06d0bbc3e8222202501058ef822b5bfc2e7d91a71a4bdbeb07881cc
+Installed-Size: 23403610
+Filename: base-files_1-26.5.18_x86_64.ipk
+Size: 23382708
+SHA256sum: 08dab650f98226e8cd78b1a3430007c8a7a2462453d73d2900a1bd2d3aff461e
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -3392,75 +3392,6 @@ Size: 23793
 SHA256sum: b688f0c43f1a924d715cd5c9f45efdd440015f6357a757bd24554dde61424a0f
 Description:  This is a driver for that allows to use the Linux kernel supported
  hardware ciphers by user-space applications.
-
-Package: kmod-dahdi-dummy
-Version: 6.12.89+3.4.0-2
-Depends: kernel (=6.12.89-1-bdf13d819beac11bf828c99ae9f281d4), kmod-dahdi
-Source: feeds/telephony/libs/dahdi-linux
-SourceName: kmod-dahdi-dummy
-License: GPL-2.0
-LicenseFiles: LICENSE
-Section: kernel
-SourceDateEpoch: 1772822997
-Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Architecture: x86_64
-Installed-Size: 2884
-Filename: kmod-dahdi-dummy_6.12.89+3.4.0-2_x86_64.ipk
-Size: 3738
-SHA256sum: bdd95c3d4137e9e561975ef5761ad3711341137522c616f6dae6f34cd735b36c
-Description:  This package contains the dummy DAHDI driver providing only DAHDI timing
- without any real telephony hardware.
-
-Package: kmod-dahdi-echocan-oslec
-Version: 6.12.89+3.4.0-2
-Depends: kernel (=6.12.89-1-bdf13d819beac11bf828c99ae9f281d4), kmod-dahdi, kmod-echo
-Source: feeds/telephony/libs/dahdi-linux
-SourceName: kmod-dahdi-echocan-oslec
-License: GPL-2.0
-LicenseFiles: LICENSE
-Section: kernel
-SourceDateEpoch: 1772822997
-Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Architecture: x86_64
-Installed-Size: 1964
-Filename: kmod-dahdi-echocan-oslec_6.12.89+3.4.0-2_x86_64.ipk
-Size: 2778
-SHA256sum: 5d12bcc246301b10a3fe3c06c4a8ede3a702af136a381dc06f88326350a19fd4
-Description:  This package contains DAHDI OSLEC echo canceller support.
-
-Package: kmod-dahdi-hfcs
-Version: 6.12.89+3.4.0-2
-Depends: kernel (=6.12.89-1-bdf13d819beac11bf828c99ae9f281d4), kmod-dahdi
-Source: feeds/telephony/libs/dahdi-linux
-SourceName: kmod-dahdi-hfcs
-License: GPL-2.0
-LicenseFiles: LICENSE
-Section: kernel
-SourceDateEpoch: 1772822997
-Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Architecture: x86_64
-Installed-Size: 11934
-Filename: kmod-dahdi-hfcs_6.12.89+3.4.0-2_x86_64.ipk
-Size: 12779
-SHA256sum: 46e253fc878b6cf582ba6718b8bc4e4ec4737821005fe07b7ef16c6bec5cb149
-Description:  This package contains DAHDI driver for HFC-S based PCI BRI adapters.
-
-Package: kmod-dahdi
-Version: 6.12.89+3.4.0-2
-Depends: kernel (=6.12.89-1-bdf13d819beac11bf828c99ae9f281d4), kmod-lib-crc-ccitt
-Source: feeds/telephony/libs/dahdi-linux
-SourceName: kmod-dahdi
-License: GPL-2.0
-LicenseFiles: LICENSE
-Section: kernel
-SourceDateEpoch: 1772822997
-Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Architecture: x86_64
-Installed-Size: 68450
-Filename: kmod-dahdi_6.12.89+3.4.0-2_x86_64.ipk
-Size: 68539
-SHA256sum: 0d2b25610c9dee4300da789d3f7a81207665641782624802c78bff5af6840a02
-Description:  This package contains DAHDI basic infrastructure.
 
 Package: kmod-dax
 Version: 6.12.89-1
@@ -8274,12 +8205,12 @@ License: GPL-3.0
 LicenseFiles: LICENSE
 Section: kernel
 Require-User: rtpengine=378:rtpengine=378
-SourceDateEpoch: 1772822997
+SourceDateEpoch: 1779021037
 Architecture: x86_64
-Installed-Size: 31626
+Installed-Size: 31627
 Filename: kmod-ipt-rtpengine_6.12.89+11.5.1.49-1_x86_64.ipk
-Size: 32365
-SHA256sum: 5b7cb4910ae29e2ae30ec17b9311a9059c135faae3e97b5b10e6b859e8f98088
+Size: 32393
+SHA256sum: 6844bebc45b45a1907c55ba629a99007ec5695af7b7d0f0929d1f58ef2570d1a
 Description:  Netfilter kernel module for rtpengine
  
 
