@@ -16,7 +16,7 @@ SHA256sum: 44fd89b7c8afbaa318b53dca98d50dff7a4cd39af19497558e015146d993e258
 Description:  AMDGPU Video Driver firmware
 
 Package: base-files
-Version: 1-26.10.1
+Version: 1-26.10.2
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, busybox
 Provides: base-files-any
 Source: package/base-files
@@ -25,10 +25,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1790818807
 Architecture: x86_64
-Installed-Size: 27765199
-Filename: base-files_1-26.10.1_x86_64.ipk
-Size: 27740556
-SHA256sum: e6ec53ed597436a77a4694867a7f473fc7304ed5b6acf223830b6bc828c9b4ef
+Installed-Size: 27765249
+Filename: base-files_1-26.10.2_x86_64.ipk
+Size: 27740209
+SHA256sum: 4e444749766d7a0f40a061bb5ce21abc2d19cc99fca45c5f70d31b6ae0639f5f
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
