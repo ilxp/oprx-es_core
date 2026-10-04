@@ -25,10 +25,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1791011809
 Architecture: x86_64
-Installed-Size: 27771138
+Installed-Size: 27771838
 Filename: base-files_1-26.10.4_x86_64.ipk
-Size: 27747272
-SHA256sum: 9a59d354d967745124ab3f5e4985f05a87056ec484a3780440216317e48c4570
+Size: 27748654
+SHA256sum: 4e9ae7ce00380d604a4c6ad3d6a614a6d9fe35eb9154ecc8499191bbc6a9c8f0
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -3809,13 +3809,13 @@ Source: feeds/packages/kernel/ovpn-dco
 SourceName: kmod-ovpn-backports
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1791032746
+SourceDateEpoch: 1791101280
 Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
 Architecture: x86_64
-Installed-Size: 37777
+Installed-Size: 37776
 Filename: kmod-ovpn-backports_6.18.54+7.0.0.2026032400-4_x86_64.ipk
-Size: 38495
-SHA256sum: 28229e5c4e108332d8fd067c0a63f20561f955b99bddf3f876e03b2989038296
+Size: 38508
+SHA256sum: fdd4371820f54235d05d497f800c4a26bf60e4f25fc46caa79f2f336c5f1dfca
 Description:  This module enhances the performance of the OpenVPN userspace software
  by offloading the data channel processing to kernelspace.
 
@@ -4069,22 +4069,6 @@ Size: 23302
 SHA256sum: b33cd0553d69cc8ed840b6df6ed786e89b81cbe6bae2a768d78022b3545cd1e5
 Description:  Common Applications Kept Enhanced fq_codel/blue derived shaper
 
-Package: kmod-sched-connmark
-Version: 6.18.54-1
-Depends: kernel (=6.18.54-1-8c0d2878584040c002e23bda45e4718d), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
-Provides: kmod-sched-connmark-any
-Source: package/kernel/linux
-SourceName: kmod-sched-connmark
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1791011809
-Architecture: x86_64
-Installed-Size: 4318
-Filename: kmod-sched-connmark_6.18.54-1_x86_64.ipk
-Size: 5088
-SHA256sum: f48b06f00b3ba87190b82f1d168bdcaa02fb1de83cb48b5748ac055893703f87
-Description:  Traffic shaper conntrack mark support
-
 Package: kmod-sched-core
 Version: 6.18.54-1
 Depends: kernel (=6.18.54-1-8c0d2878584040c002e23bda45e4718d)
@@ -4100,38 +4084,6 @@ Filename: kmod-sched-core_6.18.54-1_x86_64.ipk
 Size: 93859
 SHA256sum: 2369a911c6167feb766f346fdae37ce95c12f015611a9a599491c1120793fb88
 Description:  Core kernel scheduler support for IP traffic
-
-Package: kmod-sched-ctinfo
-Version: 6.18.54-1
-Depends: kernel (=6.18.54-1-8c0d2878584040c002e23bda45e4718d), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
-Provides: kmod-sched-ctinfo-any
-Source: package/kernel/linux
-SourceName: kmod-sched-ctinfo
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1791011809
-Architecture: x86_64
-Installed-Size: 5814
-Filename: kmod-sched-ctinfo_6.18.54-1_x86_64.ipk
-Size: 6573
-SHA256sum: 84200fb31dc124d07fe42a4cd8f47ddfbbac19e28193a694389dd944e5e5cde9
-Description:  Traffic shaper ctinfo support
-
-Package: kmod-sched-flower
-Version: 6.18.54-1
-Depends: kernel (=6.18.54-1-8c0d2878584040c002e23bda45e4718d), kmod-sched-core
-Provides: kmod-sched-flower-any
-Source: package/kernel/linux
-SourceName: kmod-sched-flower
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1791011809
-Architecture: x86_64
-Installed-Size: 33564
-Filename: kmod-sched-flower_6.18.54-1_x86_64.ipk
-Size: 34312
-SHA256sum: 4f7f55e9d30d2dd08951e948b860458b61df90c86d4b2b638c4416db2d7a0ac8
-Description:  Allows to classify packets based on a configurable combination of packet keys and masks.
 
 Package: kmod-scsi-core
 Version: 6.18.54-1
